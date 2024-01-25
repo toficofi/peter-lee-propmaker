@@ -17,6 +17,8 @@ import {
 } from "lucide-react";
 import Image from "next/image";
 
+import { imdb_movies } from "./data";
+
 // Graduating with a degree in furniture design, my works include film, TV, exhibition, architectural, prototyping, window display and escape room props and build.
 
 const skills = [
@@ -81,6 +83,19 @@ export default function Hero() {
                   </span>
                 </div>
               ))}
+            </div>
+            <div className="flex mt-4">
+              {
+                imdb_movies.map((movie: any) => {
+                  return <div key={movie.name} className="border rounded-sm flex gap-2 max-w-[300px]">
+                    <Image src={`/${movie.image}`} width={60} height={300} alt={movie.name} />
+                    <div className="p-1">
+                      <p className="font-medium">{movie.name}</p>
+                      <p className="text-gray-500">{movie.year}</p>
+                    </div>
+                  </div>
+                })
+              }
             </div>
             <div className="flex gap-2 mt-auto border-t pt-4">
               <Button className="flex">

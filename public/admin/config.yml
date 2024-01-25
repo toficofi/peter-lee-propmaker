@@ -9,10 +9,10 @@ collections:
     files:
     - label: "Home"
       name: "home"
-      file: "content/home.md"
+      file: "src/app/content/home.md"
       fields:
         - label: 'IMDB Movie'
-          name: "imdb_movie"
+          name: "imdb_movies"
           widget: list
           fields:
             - { label: "Name", name: "name", widget: "string"}

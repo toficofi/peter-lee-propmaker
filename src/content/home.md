@@ -1,5 +1,5 @@
 ---
-imdb_movie:
+imdb_movies:
   - name: "The Lord of the Rings: The Rings of Power"
     year: "2022"
     url: https://m.imdb.com/title/tt7631058
