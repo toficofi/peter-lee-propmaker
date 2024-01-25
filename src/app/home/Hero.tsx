@@ -87,13 +87,13 @@ export default function Hero() {
             <div className="flex mt-4">
               {
                 imdb_movies.map((movie: any) => {
-                  return <div key={movie.name} className="border rounded-sm flex gap-2 max-w-[300px]">
+                  return <a key={movie.name} href={movie.url} target="_blank" className="border bg-white rounded-sm shadow-sm overflow-hidden flex gap-2 max-w-[300px] group transition-colors hover:bg-gray-100">
                     <Image src={`/${movie.image}`} width={60} height={300} alt={movie.name} />
                     <div className="p-1">
                       <p className="font-medium">{movie.name}</p>
                       <p className="text-gray-500">{movie.year}</p>
                     </div>
-                  </div>
+                  </a>
                 })
               }
             </div>
