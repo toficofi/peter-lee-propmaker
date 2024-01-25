@@ -18,6 +18,7 @@ import {
 import Image from "next/image";
 
 import { imdb_movies } from "./data";
+import IMDBCarousel from "@/components/imdb-carousel";
 
 // Graduating with a degree in furniture design, my works include film, TV, exhibition, architectural, prototyping, window display and escape room props and build.
 
@@ -50,9 +51,9 @@ const skills = [
 export default function Hero() {
   return (
     <div className="bg-gray-50">
-      <div className="flex flex-col md:flex-row md:h-screen md:max-h-[600px] max-w-7xl mx-auto">
-        <div className="grow p-4 flex flex-col h-screen md:h-full">
-          <div className="flex items-center justify-between pb-4 md:py-4 mb-4 border-b">
+      <div className="flex flex-col md:flex-row md:h-screen md:max-h-[600px] md:min-h-[500px] max-w-7xl mx-auto overflow-x-hidden overflow-y-visible">
+        <div className="grow p-4 md:pt-0 flex flex-col md:h-full">
+          <div className="flex items-center justify-between pb-4 md:py-4 mb-2 border-b">
             <div className="flex items-center gap-4">
               <div className="w-6 h-6 bg-gray-900 rounded-full" />
               <h1 className="text-md font-medium">Peter Lee Propmaker</h1>
@@ -62,7 +63,7 @@ export default function Hero() {
             <h1 className="text-3xl xl:text-5xl font-semibold tracking-tight text-gray-900 leading-10">
               30+ years of experience in film and TV
             </h1>
-            <p className="mt-6 text-gray-600">
+            <p className="mt-4 text-gray-600">
               Competence with a vast array of different materials and
               manufacturing techniques, built on a foundation of proficiency
               with hand tools & machinery.
@@ -84,20 +85,11 @@ export default function Hero() {
                 </div>
               ))}
             </div>
-            <div className="flex mt-4">
-              {
-                imdb_movies.map((movie: any) => {
-                  return <a key={movie.name} href={movie.url} target="_blank" className="border bg-white rounded-sm shadow-sm overflow-hidden flex gap-2 max-w-[300px] group transition-colors hover:bg-gray-100">
-                    <Image src={`/${movie.image}`} width={60} height={300} alt={movie.name} />
-                    <div className="p-1">
-                      <p className="font-medium">{movie.name}</p>
-                      <p className="text-gray-500">{movie.year}</p>
-                    </div>
-                  </a>
-                })
-              }
+            <div className="my-4">
+              <h2 className="font-medium text-md xl:text-md">Some of my work:</h2>
             </div>
-            <div className="flex gap-2 mt-auto border-t pt-4">
+            <IMDBCarousel />
+            <div className="flex gap-2 mt-auto pt-8 md:pt-4">
               <Button className="flex">
                 Get in touch <ArrowRightIcon className="w-4 h-4 ml-2" />
               </Button>
