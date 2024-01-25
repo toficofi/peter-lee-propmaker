@@ -9,7 +9,7 @@ collections:
     files:
     - label: "Home"
       name: "home"
-      file: "/src/app/content/home.md"
+      file: "/src/content/home.md"
       fields:
         - label: 'IMDB Movie'
           name: "imdb_movies"
