@@ -5,12 +5,14 @@ import {
   ArrowRightIcon,
   ArrowUpRight,
   CastleIcon,
+  ChevronsDown,
   ClapperboardIcon,
   ExternalLink,
   FilmIcon,
   MoveUpRight,
   PanelTopDashed,
   PencilRulerIcon,
+  ScrollIcon,
   StoreIcon,
   TvIcon,
   VenetianMask,
@@ -29,11 +31,11 @@ const skills = [
   },
   {
     icon: (props: any) => <PanelTopDashed {...props} />,
-    label: "Exhibition",
+    label: "Exhibitions",
   },
   {
     icon: (props: any) => <CastleIcon {...props} />,
-    label: "Architectural",
+    label: "Architecture",
   },
   {
     icon: (props: any) => <PencilRulerIcon {...props} />,
@@ -41,11 +43,11 @@ const skills = [
   },
   {
     icon: (props: any) => <StoreIcon {...props} />,
-    label: "Window Display",
+    label: "Window displays",
   },
   {
     icon: (props: any) => <VenetianMask {...props} />,
-    label: "Escape Room",
+    label: "Escape rooms",
   },
 ];
 export default function Hero() {
@@ -60,7 +62,7 @@ export default function Hero() {
             </div>
           </div>
           <div className="flex flex-col h-full justify-center">
-            <h1 className="text-3xl xl:text-5xl font-semibold tracking-tight text-gray-900 leading-10">
+            <h1 className="text-3xl lg:text-4xl xl:text-5xl font-semibold tracking-tight text-gray-900 leading-10">
               30+ years of experience in film and TV
             </h1>
             <p className="mt-4 text-gray-600">
@@ -86,7 +88,9 @@ export default function Hero() {
               ))}
             </div>
             <div className="my-4">
-              <h2 className="font-medium text-md xl:text-md">Some of my work:</h2>
+              <h2 className="font-medium text-md xl:text-md">
+                Some of my work:
+              </h2>
             </div>
             <IMDBCarousel />
             <div className="flex gap-2 mt-auto pt-8 md:pt-4">
@@ -94,14 +98,22 @@ export default function Hero() {
                 Get in touch <ArrowRightIcon className="w-4 h-4 ml-2" />
               </Button>
               <Button variant="ghost">
-                <Image src={imdbIcon} width={40} alt="IMDB logo" className="mr-2"/>{" "}
-                See my IMDB{" "}
-                <ArrowUpRight className="w-5 h-5 mb-2 ml-1" />
+                <Image
+                  src={imdbIcon}
+                  width={40}
+                  alt="IMDB logo"
+                  className="mr-2"
+                />{" "}
+                See my IMDB <ArrowUpRight className="w-5 h-5 mb-2 ml-1" />
               </Button>
+              <div className="hidden md:flex border ml-auto rounded-full items-center justify-center px-4 py-1 h-10 text-gray-800 text-sm font-medium">
+                Scroll for portfolio
+                <ChevronsDown className="w-5 h-5 ml-2"/>
+              </div>
             </div>
           </div>
         </div>
-        <div className="relative h-[50vh] md:h-full md:w-1/2 flex-none">
+        <div className="relative h-[50vh] md:h-full md:w-1/3 flex-none">
           <Image
             fill
             src={coverImage}

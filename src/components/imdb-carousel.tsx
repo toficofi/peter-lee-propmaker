@@ -34,7 +34,7 @@ export default function IMDBCarousel({ className }: Props) {
       <CarouselContent className="overflow-visible">
         {imdb_movies.map((movie: any) => {
           return (
-            <CarouselItem className="basis-[44%] h-[80px]" key={movie.name}>
+            <CarouselItem className="basis-[30%] h-[80px]" key={movie.name}>
               <a
                 href={movie.url}
                 target="_blank"
@@ -55,12 +55,10 @@ export default function IMDBCarousel({ className }: Props) {
           );
         })}
       </CarouselContent>
-      <div className="absolute -bottom-[60px] right-0 w-full h-auto flex gap-2 justify-end">
+      <div className="absolute bottom-[75px] right-0 w-full h-auto flex gap-2 justify-end">
         <CarouselPrevious className="static" />
         <CarouselNext className="static" />
       </div>
     </Carousel>
   );
-
-  return <div className="flex mt-4"></div>;
 }
