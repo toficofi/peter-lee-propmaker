@@ -1,15 +1,52 @@
 import IMDBCarousel from "@/components/imdb-carousel";
-import { Clapperboard } from "lucide-react";
+import architectBackground from "@/assets/images/architect-background.png";
+import { ArrowUpRight, Clapperboard } from "lucide-react";
+import Image from "next/image";
+import imdbIcon from "@/assets/images/imdb.png";
+import { Button } from "@/components/ui/button";
 
 export default function Movies() {
   return (
-    <div className="max-w-container mx-auto h-[500px] flex flex-col  items-center p-4 dark bg-neutral-900 text-white">
-      <div className="text-center">
-        <Clapperboard className="w-6 h-6 mx-auto" />
-        <h2 className="text-3xl font-semibold tracking-tight">Some of my works</h2>
-      </div>
-      <div className="">
-        <IMDBCarousel />
+    <div className="bg-neutral-900">
+      <div className="max-w-container mx-auto h-[450px] flex flex-col p-4 py-8 dark bg-neutral-900 text-white overflow-hidden relative">
+        <Image
+          src={architectBackground}
+          width={500}
+          alt=""
+          objectFit="cover"
+          className="absolute top-0 right-0"
+        />
+        <div className="mb-8">
+          <h2 className="text-3xl lg:text-4xl font-medium tracking-tight">
+            Credits in film and TV
+          </h2>
+          <p className="text-gray-400 mt-4 max-w-[400px]">
+            Over the years, I&apos;ve accumulated{" "}
+            <span className="text-white font-medium">70+ credits</span> on
+            various film and TV productions, each with their own unique
+            challenges and requirements.
+          </p>
+          <div className="mt-4">
+            <a
+              href="https://www.imdb.com/name/nm0497323/"
+              target="_blank"
+              className="flex items-center hover:text-[#E7BF0B] group"
+            >
+              <Image
+                src={imdbIcon}
+                width={40}
+                alt="IMDB logo"
+                className="mr-2"
+              />{" "}
+              <span className="ml-2 flex items-center transition-transform group-hover:translate-x-1">
+                View my IMDB page <ArrowUpRight className="w-5 h-5 mb-2 ml-1" />
+              </span>
+            </a>
+          </div>
+        </div>
+        <div className="mt-auto">
+          <IMDBCarousel />
+        </div>
       </div>
     </div>
   );

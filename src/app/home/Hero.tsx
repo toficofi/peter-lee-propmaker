@@ -1,5 +1,4 @@
 import coverImage from "@/assets/images/peter-cover.jpg";
-import imdbIcon from "@/assets/images/imdb.png";
 import { Button } from "@/components/ui/button";
 import {
   ArrowRightIcon,
@@ -19,9 +18,6 @@ import {
   VenetianMask,
 } from "lucide-react";
 import Image from "next/image";
-
-import { imdb_movies } from "./data";
-import IMDBCarousel from "@/components/imdb-carousel";
 
 // Graduating with a degree in furniture design, my works include film, TV, exhibition, architectural, prototyping, window display and escape room props and build.
 
@@ -67,7 +63,7 @@ export default function Hero() {
               30+ years of experience in film and TV
             </h1>
             <p className="mt-4 text-gray-400 xl:text-lg max-w-[500px]">
-            Graduating with a degree in furniture design, I have a competence with a vast array of different materials and
+            With a degree in furniture design, I have a competence with a vast array of different materials and
               manufacturing techniques, built on a foundation of proficiency
               with hand tools & machinery accumulated over 30+ years of experience in film and TV.
             </p>
@@ -90,24 +86,9 @@ export default function Hero() {
                 ))}
               </div>
             </div>
-            {/* <div className="my-4">
-              <h2 className="font-medium text-md xl:text-md">
-                Some of my work:
-              </h2>
-            </div>
-            <IMDBCarousel /> */}
             <div className="static md:absolute bottom-0 left-0 w-full flex gap-2 pt-8 md:pt-4">
               <Button className="flex">
                 Get in touch <ArrowRightIcon className="w-4 h-4 ml-2" />
-              </Button>
-              <Button variant="ghost">
-                <Image
-                  src={imdbIcon}
-                  width={40}
-                  alt="IMDB logo"
-                  className="mr-2"
-                />{" "}
-                See my IMDB <ArrowUpRight className="w-5 h-5 mb-2 ml-1" />
               </Button>
               <div className="hidden lg:flex ml-auto rounded-full items-center justify-center px-4 py-1 h-10 text-gray-800 text-sm font-medium animate-bounce duration-[10s] whitespace-nowrap">
                 Scroll for portfolio
@@ -123,7 +104,7 @@ export default function Hero() {
             alt="Peter Lee"
             className="object-cover"
           />
-          <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-transparent to-neutral-800 flex flex-col justify-end p-4 text-white">
+          <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-transparent to-neutral-900 flex flex-col justify-end p-4 text-white">
             <div className="text-4xl font-semibold">Peter Lee</div>
             <div className="text-lg flex items-center gap-4 my-2"><LocateFixed /> Based in the UK</div>
             <div className="max-w-[400px]">Experienced and adaptive propmaker with involvement in <span className="font-semibold">armoury, set dec and hand props.</span></div>
