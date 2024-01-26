@@ -29,8 +29,8 @@ export default function IMDBCarousel({ className }: Props) {
       opts={{ loop: true, align: "start" }}
       className={cn("relative mt-8", className)}
     >
-      <div className="absolute top-0 -left-4 w-4 h-full z-10 bg-gradient-to-l from-transparent to-neutral-900" />
-      <div className="absolute top-0 -right-4 w-8 h-full z-10 bg-gradient-to-r from-transparent to-neutral-900" />
+      <div className="absolute top-0 -left-8 w-8 h-full z-10 bg-gradient-to-l from-transparent to-neutral-900" />
+      <div className="absolute top-0 -right-8 w-8 h-full z-10 bg-gradient-to-r from-transparent to-neutral-900" />
       <CarouselContent>
         {imdb_movies.map((movie: any) => {
           return (
@@ -47,10 +47,10 @@ export default function IMDBCarousel({ className }: Props) {
                   alt={movie.name}
                   className="w-1/3 shrink-0 object-cover"
                 />
-                <div className="p-1 h-full flex flex-col">
+                <div className="p-1 h-full flex flex-col w-full">
                   <p className="font-medium">{movie.name}</p>
                   <p className="text-gray-500">{movie.year}</p>
-                  <p className="text-sm font-medium mt-auto mb-2">{movie.role}</p>
+                  <p className="text-sm font-medium mt-auto mb-2 pt-2 border-t border-t-gray-600 mr-2">{movie.role}</p>
                 </div>
               </a>
             </CarouselItem>

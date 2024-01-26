@@ -4,17 +4,18 @@ import { ArrowUpRight, Clapperboard } from "lucide-react";
 import Image from "next/image";
 import imdbIcon from "@/assets/images/imdb.png";
 import { Button } from "@/components/ui/button";
+import { links } from "../links";
 
 export default function Movies() {
   return (
     <div className="bg-neutral-900">
-      <div className="max-w-container mx-auto h-[450px] flex flex-col p-4 py-8 dark bg-neutral-900 text-white overflow-hidden relative">
+      <div className="max-w-container mx-auto h-[450px] flex flex-col p-8 py-8 dark bg-neutral-900 text-white overflow-hidden relative">
         <Image
           src={architectBackground}
           width={500}
           alt=""
           objectFit="cover"
-          className="absolute top-0 right-0"
+          className="absolute opacity-20 md:opacity-50 top-0 right-0"
         />
         <div className="mb-8">
           <h2 className="text-3xl lg:text-4xl font-medium tracking-tight">
@@ -28,7 +29,7 @@ export default function Movies() {
           </p>
           <div className="mt-4">
             <a
-              href="https://www.imdb.com/name/nm0497323/"
+              href={links.imdb}
               target="_blank"
               className="flex items-center hover:text-[#E7BF0B] group"
             >

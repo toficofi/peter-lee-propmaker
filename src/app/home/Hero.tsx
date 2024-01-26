@@ -51,7 +51,7 @@ export default function Hero() {
   return (
     <div className="bg-gray-50">
       <div className="flex flex-col md:flex-row md:h-screen md:max-h-[900px] md:min-h-[500px] max-w-container mx-auto overflow-x-hidden overflow-y-visible">
-        <div className="grow p-4 md:pt-0 flex flex-col md:h-full">
+        <div className="grow p-8 py-4 md:pt-0 flex flex-col md:h-full">
           <div className="flex items-center justify-between pb-4 md:py-4 mb-2 border-b">
             <div className="flex items-center gap-4">
               <div className="w-6 h-6 bg-gray-900 rounded-full" />
@@ -60,12 +60,13 @@ export default function Hero() {
           </div>
           <div className="flex flex-col h-full justify-evenly relative">
             <h1 className="text-3xl lg:text-4xl xl:text-5xl 2xl:text-7xl font-semibold tracking-tight text-gray-900 leading-10 max-w-[500px]">
-              30+ years of experience in film and TV
+              30+ years of experience propmaking for film, TV and others
             </h1>
             <p className="mt-4 text-gray-400 xl:text-lg max-w-[500px]">
-            With a degree in furniture design, I have a competence with a vast array of different materials and
-              manufacturing techniques, built on a foundation of proficiency
-              with hand tools & machinery accumulated over 30+ years of experience in film and TV.
+              With a degree in furniture design, I have a competence with a vast
+              array of different materials and manufacturing techniques, built
+              on a foundation of proficiency with hand tools & machinery
+              accumulated over 30+ years of experience in film and TV.
             </p>
 
             <div className="md:mb-12">
@@ -87,8 +88,8 @@ export default function Hero() {
               </div>
             </div>
             <div className="static md:absolute bottom-0 left-0 w-full flex gap-2 pt-8 md:pt-4">
-              <Button className="flex">
-                Get in touch <ArrowRightIcon className="w-4 h-4 ml-2" />
+              <Button size="lg" className="flex bg-neutral-900">
+                Get in touch <ArrowRightIcon className="w-4 h-4 ml-2 mb-0.5" />
               </Button>
               <div className="hidden lg:flex ml-auto rounded-full items-center justify-center px-4 py-1 h-10 text-gray-800 text-sm font-medium animate-bounce duration-[10s] whitespace-nowrap">
                 Scroll for portfolio
@@ -104,10 +105,22 @@ export default function Hero() {
             alt="Peter Lee"
             className="object-cover"
           />
-          <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-transparent to-neutral-900 flex flex-col justify-end p-4 text-white">
+          <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-transparent to-neutral-900 flex flex-col justify-end p-8 pt-4 text-white">
+            <div className="mb-auto hidden justify-end md:flex">
+              <Button size="lg" className="flex bg-neutral-50 text-neutral-900 hover:bg-neutral-200 hover:text-neutral-800">
+                Get in touch <ArrowRightIcon className="w-4 h-4 ml-2 mb-0.5" />
+              </Button>
+            </div>
             <div className="text-4xl font-semibold">Peter Lee</div>
-            <div className="text-lg flex items-center gap-4 my-2"><LocateFixed /> Based in the UK</div>
-            <div className="max-w-[400px]">Experienced and adaptive propmaker with involvement in <span className="font-semibold">armoury, set dec and hand props.</span></div>
+            <div className="text-lg flex items-center gap-4 my-2">
+              <LocateFixed /> Based in the UK
+            </div>
+            <div className="max-w-[400px]">
+              Experienced and adaptive propmaker with involvement in{" "}
+              <span className="font-semibold">
+                armoury, set dec and hand props.
+              </span>
+            </div>
           </div>
         </div>
       </div>
