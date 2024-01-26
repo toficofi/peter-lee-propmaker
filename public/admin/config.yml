@@ -18,4 +18,5 @@ collections:
             - { label: "Name", name: "name", widget: "string"}
             - { label: "URL", name: "url", widget: "string"}
             - { label: "Year", name: "year", widget: "string"}
+            - { label: "Role", name: "role", widget: "string"}
             - { label: "Image", name: "image", widget: "image", choose_url: false}

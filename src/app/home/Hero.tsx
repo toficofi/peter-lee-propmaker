@@ -1,4 +1,4 @@
-import coverImage from "@/assets/images/peter-cover.png";
+import coverImage from "@/assets/images/peter-cover.jpg";
 import imdbIcon from "@/assets/images/imdb.png";
 import { Button } from "@/components/ui/button";
 import {
@@ -9,6 +9,7 @@ import {
   ClapperboardIcon,
   ExternalLink,
   FilmIcon,
+  LocateFixed,
   MoveUpRight,
   PanelTopDashed,
   PencilRulerIcon,
@@ -53,7 +54,7 @@ const skills = [
 export default function Hero() {
   return (
     <div className="bg-gray-50">
-      <div className="flex flex-col md:flex-row md:h-screen md:max-h-[600px] md:min-h-[500px] max-w-7xl mx-auto overflow-x-hidden overflow-y-visible">
+      <div className="flex flex-col md:flex-row md:h-screen md:max-h-[900px] md:min-h-[500px] max-w-container mx-auto overflow-x-hidden overflow-y-visible">
         <div className="grow p-4 md:pt-0 flex flex-col md:h-full">
           <div className="flex items-center justify-between pb-4 md:py-4 mb-2 border-b">
             <div className="flex items-center gap-4">
@@ -61,39 +62,41 @@ export default function Hero() {
               <h1 className="text-md font-medium">Peter Lee Propmaker</h1>
             </div>
           </div>
-          <div className="flex flex-col h-full justify-center">
-            <h1 className="text-3xl lg:text-4xl xl:text-5xl font-semibold tracking-tight text-gray-900 leading-10">
+          <div className="flex flex-col h-full justify-evenly relative">
+            <h1 className="text-3xl lg:text-4xl xl:text-5xl 2xl:text-7xl font-semibold tracking-tight text-gray-900 leading-10 max-w-[500px]">
               30+ years of experience in film and TV
             </h1>
-            <p className="mt-4 text-gray-600">
-              Competence with a vast array of different materials and
+            <p className="mt-4 text-gray-400 xl:text-lg max-w-[500px]">
+            Graduating with a degree in furniture design, I have a competence with a vast array of different materials and
               manufacturing techniques, built on a foundation of proficiency
-              with hand tools & machinery.
+              with hand tools & machinery accumulated over 30+ years of experience in film and TV.
             </p>
 
-            <div className="mt-4 mb-4">
-              <h2 className="font-medium text-md xl:text-md">I work with:</h2>
+            <div className="md:mb-12">
+              <div className="mt-4 mb-4">
+                <h2 className="font-medium text-md xl:text-md">I work with:</h2>
+              </div>
+              <div className="grid grid-cols-2 lg:grid-cols-3 gap-y-4">
+                {skills.map((skill) => (
+                  <div
+                    key={skill.label}
+                    className="flex items-center gap-4 whitespace-nowrap"
+                  >
+                    {skill.icon({ size: 18 })}
+                    <span className="leading-none font-medium">
+                      {skill.label}
+                    </span>
+                  </div>
+                ))}
+              </div>
             </div>
-            <div className="grid grid-cols-2 lg:grid-cols-3 gap-y-4">
-              {skills.map((skill) => (
-                <div
-                  key={skill.label}
-                  className="flex items-center gap-4 whitespace-nowrap"
-                >
-                  {skill.icon({ size: 18 })}
-                  <span className="leading-none font-medium">
-                    {skill.label}
-                  </span>
-                </div>
-              ))}
-            </div>
-            <div className="my-4">
+            {/* <div className="my-4">
               <h2 className="font-medium text-md xl:text-md">
                 Some of my work:
               </h2>
             </div>
-            <IMDBCarousel />
-            <div className="flex gap-2 mt-auto pt-8 md:pt-4">
+            <IMDBCarousel /> */}
+            <div className="static md:absolute bottom-0 left-0 w-full flex gap-2 pt-8 md:pt-4">
               <Button className="flex">
                 Get in touch <ArrowRightIcon className="w-4 h-4 ml-2" />
               </Button>
@@ -106,20 +109,25 @@ export default function Hero() {
                 />{" "}
                 See my IMDB <ArrowUpRight className="w-5 h-5 mb-2 ml-1" />
               </Button>
-              <div className="hidden md:flex border ml-auto rounded-full items-center justify-center px-4 py-1 h-10 text-gray-800 text-sm font-medium">
+              <div className="hidden lg:flex ml-auto rounded-full items-center justify-center px-4 py-1 h-10 text-gray-800 text-sm font-medium animate-bounce duration-[10s] whitespace-nowrap">
                 Scroll for portfolio
-                <ChevronsDown className="w-5 h-5 ml-2"/>
+                <ChevronsDown className="w-5 h-5 ml-2" />
               </div>
             </div>
           </div>
         </div>
-        <div className="relative h-[50vh] md:h-full md:w-1/3 flex-none">
+        <div className="relative h-[50vh] md:h-full md:w-1/2 flex-none">
           <Image
             fill
             src={coverImage}
             alt="Peter Lee"
             className="object-cover"
           />
+          <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-transparent to-neutral-800 flex flex-col justify-end p-4 text-white">
+            <div className="text-4xl font-semibold">Peter Lee</div>
+            <div className="text-lg flex items-center gap-4 my-2"><LocateFixed /> Based in the UK</div>
+            <div className="max-w-[400px]">Experienced and adaptive propmaker with involvement in <span className="font-semibold">armoury, set dec and hand props.</span></div>
+          </div>
         </div>
       </div>
     </div>
