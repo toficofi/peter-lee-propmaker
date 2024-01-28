@@ -25,4 +25,8 @@ imdb_movies:
     url: https://m.imdb.com/title/tt11198330/?ref_=nm_flmg_t_5_ardp
     image: uploads/mv5bmjk2njgzmtetywvizs00ntmylwfjmzctodczymqznzk2njiwxkeyxkfqcgdeqxvymteymjm2ndc2._v1_ql75_ux380_cr0-0-380-562_.jpg
     role: HoD Assistant
+portfolio_images:
+  - image: public/uploads/portfolio/image-3.png
+  - image: public/uploads/portfolio/image-18.png
+  - image: public/uploads/portfolio/image-4.png
 ---
