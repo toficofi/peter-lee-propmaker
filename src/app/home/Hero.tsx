@@ -50,7 +50,7 @@ const skills = [
 export default function Hero() {
   return (
     <div className="bg-gray-50">
-      <div className="flex flex-col md:flex-row md:h-screen md:max-h-[900px] md:min-h-[500px] max-w-container mx-auto overflow-x-hidden overflow-y-visible">
+      <div className="flex flex-col md:flex-row md:h-screen md:max-h-[900px] md:min-h-[600px] max-w-container mx-auto">
         <div className="grow p-8 py-4 md:pt-0 flex flex-col md:h-full">
           <div className="flex items-center justify-between pb-4 md:py-4 mb-2 border-b">
             <div className="flex items-center gap-4">
@@ -59,14 +59,14 @@ export default function Hero() {
             </div>
           </div>
           <div className="flex flex-col h-full justify-evenly relative">
-            <h1 className="text-3xl lg:text-4xl xl:text-5xl 2xl:text-7xl font-semibold tracking-tight text-gray-900 leading-10 max-w-[500px]">
-              30+ years of experience propmaking for film, TV and others
+            <h1 className="text-3xl lg:text-4xl xl:text-5xl 2xl:text-7xl font-semibold tracking-tight text-gray-900 leading-10">
+              29 years propmaking for film, TV and others
             </h1>
             <p className="mt-4 text-gray-400 xl:text-lg max-w-[500px]">
               With a degree in furniture design, I have a competence with a vast
               array of different materials and manufacturing techniques, built
               on a foundation of proficiency with hand tools & machinery
-              accumulated over 30+ years of experience in film and TV.
+              accumulated over 29 years of experience in film and TV.
             </p>
 
             <div className="md:mb-12">

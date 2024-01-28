@@ -20,3 +20,8 @@ collections:
             - { label: "Year", name: "year", widget: "string"}
             - { label: "Role", name: "role", widget: "string"}
             - { label: "Image", name: "image", widget: "image", choose_url: false}
+        - label: "Portfolio images"
+          name: "portfolio_images"
+          widget: list
+          fields:
+            - { label: "Image", name: "image", widget: "image", choose_url: false, media_folder: "public/uploads/portfolio"}

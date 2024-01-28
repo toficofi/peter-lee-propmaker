@@ -9,7 +9,7 @@ import { links } from "../links";
 export default function Movies() {
   return (
     <div className="bg-neutral-900">
-      <div className="max-w-container mx-auto h-[450px] flex flex-col p-8 py-8 dark bg-neutral-900 text-white overflow-hidden relative">
+      <div className="max-w-container mx-auto flex flex-col gap-12 p-8 py-16 dark bg-neutral-900 text-white overflow-hidden relative">
         <Image
           src={architectBackground}
           width={500}
@@ -31,7 +31,7 @@ export default function Movies() {
             <a
               href={links.imdb}
               target="_blank"
-              className="flex items-center hover:text-[#E7BF0B] group"
+              className="inline-flex items-center hover:text-[#E7BF0B] group"
             >
               <Image
                 src={imdbIcon}

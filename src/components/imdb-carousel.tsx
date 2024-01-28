@@ -34,7 +34,7 @@ export default function IMDBCarousel({ className }: Props) {
       <CarouselContent>
         {imdb_movies.map((movie: any) => {
           return (
-            <CarouselItem className="basis-[80%] md:basis-[30%] xl:basis-[24%] 2xl:basis-[15%] h-[135px]" key={movie.name}>
+            <CarouselItem className="basis-[80%] md:basis-[30%] xl:basis-[24%] 2xl:basis-[15%] h-[200px] select-none" key={movie.name}>
               <a
                 href={movie.url}
                 target="_blank"
@@ -42,22 +42,22 @@ export default function IMDBCarousel({ className }: Props) {
               >
                 <Image
                   src={`/${movie.image}`}
-                  width={100}
-                  height={200}
+                  width={200}
+                  height={400}
                   alt={movie.name}
-                  className="w-1/3 shrink-0 object-cover"
+                  className="w-1/2 shrink-0 object-cover"
                 />
                 <div className="p-1 h-full flex flex-col w-full">
-                  <p className="font-medium">{movie.name}</p>
+                  <p className="font-medium text-lg">{movie.name}</p>
                   <p className="text-gray-500">{movie.year}</p>
-                  <p className="text-sm font-medium mt-auto mb-2 pt-2 border-t border-t-gray-600 mr-2">{movie.role}</p>
+                  <p className="text-sm font-medium mt-auto mb-1 mr-2">{movie.role}</p>
                 </div>
               </a>
             </CarouselItem>
           );
         })}
       </CarouselContent>
-      <div className="absolute bottom-[130px] left-0 w-full h-auto flex gap-2 justify-start">
+      <div className="absolute -top-[32px] left-0 w-full h-auto flex gap-2 justify-start">
         <CarouselPrevious className="static bg-white text-neutral-900 hover:bg-neutral-200 hover:text-neutral-800" />
         <CarouselNext className="static bg-white text-neutral-900 hover:bg-neutral-200 hover:text-neutral-800" />
       </div>
