@@ -29,4 +29,24 @@ portfolio_images:
   - image: public/uploads/portfolio/image-3.png
   - image: public/uploads/portfolio/image-18.png
   - image: public/uploads/portfolio/image-4.png
+  - image: public/uploads/portfolio/image-2.png
+  - image: public/uploads/portfolio/image-5.png
+  - image: public/uploads/portfolio/image-6.png
+  - image: public/uploads/portfolio/image-9.png
+  - image: public/uploads/portfolio/image-11.png
+  - image: public/uploads/portfolio/image-12.png
+  - image: public/uploads/portfolio/image-13.png
+  - image: public/uploads/portfolio/image-14.png
+  - image: public/uploads/portfolio/image-16.png
+  - image: public/uploads/portfolio/image-15.png
+  - image: public/uploads/portfolio/image-17.png
+  - image: public/uploads/portfolio/image-19.png
+  - image: public/uploads/portfolio/image-21.png
+  - image: public/uploads/portfolio/image-22.png
+  - image: public/uploads/portfolio/image-24.png
+  - image: public/uploads/portfolio/image-25.png
+  - image: public/uploads/portfolio/image-26.png
+  - image: public/uploads/portfolio/image-28.png
+  - image: public/uploads/portfolio/image-29.png
+  - image: public/uploads/portfolio/image-27.png
 ---
