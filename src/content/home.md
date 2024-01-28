@@ -49,4 +49,12 @@ portfolio_images:
   - image: public/uploads/portfolio/image-28.png
   - image: public/uploads/portfolio/image-29.png
   - image: public/uploads/portfolio/image-27.png
+  - image: public/uploads/portfolio/image-30.png
+  - image: public/uploads/portfolio/image-32.png
+  - image: public/uploads/portfolio/image-33.png
+  - image: public/uploads/portfolio/image-31.png
+  - image: public/uploads/portfolio/image-35.png
+  - image: public/uploads/portfolio/image-34.png
+  - image: public/uploads/portfolio/image-36.png
+  - image: public/uploads/portfolio/image-37.png
 ---
