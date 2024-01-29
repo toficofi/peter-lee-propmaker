@@ -31,14 +31,14 @@ async function processImages() {
         width,
         height,
         blurDataURL: base64,
-        srcSet: breakpoints.map((breakpoint) => {
-          const calculatedHeight = Math.round((height / width) * breakpoint);
-          return {
-            src,
-            width: breakpoint,
-            height: calculatedHeight,
-          };
-        }),
+        // srcSet: breakpoints.map((breakpoint) => {
+        //   const calculatedHeight = Math.round((height / width) * breakpoint);
+        //   return {
+        //     src,
+        //     width: breakpoint,
+        //     height: calculatedHeight,
+        //   };
+        // }),
       };
     })
   );
