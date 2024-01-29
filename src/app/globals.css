@@ -79,4 +79,8 @@
   .max-w-container {
     @apply max-w-[1920px];
   }
+
+  .p-container {
+    @apply p-4 md:p-8;
+  }
 }

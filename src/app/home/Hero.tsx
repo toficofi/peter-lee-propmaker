@@ -51,7 +51,7 @@ export default function Hero() {
   return (
     <div className="bg-gray-50">
       <div className="flex flex-col md:flex-row md:h-screen md:max-h-[900px] md:min-h-[600px] max-w-container mx-auto">
-        <div className="grow p-8 py-4 md:pt-0 flex flex-col md:h-full">
+        <div className="grow p-container py-4 md:pt-0 flex flex-col md:h-full">
           <div className="flex items-center justify-between pb-4 md:py-4 mb-2 border-b">
             <div className="flex items-center gap-4">
               <div className="w-6 h-6 bg-gray-900 rounded-full" />
@@ -77,10 +77,10 @@ export default function Hero() {
                 {skills.map((skill) => (
                   <div
                     key={skill.label}
-                    className="flex items-center gap-4 whitespace-nowrap"
+                    className="flex items-center gap-2 md:gap-4 whitespace-nowrap"
                   >
                     {skill.icon({ size: 18 })}
-                    <span className="leading-none font-medium">
+                    <span className="leading-none text-sm md:text-base font-medium">
                       {skill.label}
                     </span>
                   </div>
@@ -105,7 +105,7 @@ export default function Hero() {
             alt="Peter Lee"
             className="object-cover"
           />
-          <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-transparent to-neutral-900 flex flex-col justify-end p-8 pt-4 text-white">
+          <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-transparent to-neutral-900 flex flex-col justify-end p-container pt-4 text-white">
             <div className="mb-auto hidden justify-end md:flex">
               <Button size="lg" className="flex bg-neutral-50 text-neutral-900 hover:bg-neutral-200 hover:text-neutral-800">
                 Get in touch <ArrowRightIcon className="w-4 h-4 ml-2 mb-0.5" />

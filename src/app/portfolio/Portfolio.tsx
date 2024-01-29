@@ -51,7 +51,7 @@ export default async function Portfolio() {
 
   return (
     <div className="bg-neutral-100">
-      <div className="max-w-container mx-auto p-8">
+      <div className="max-w-container mx-auto p-container">
         <div className="mb-8">
           <h2 className="text-3xl lg:text-4xl font-semibold tracking-tight">
             Portfolio
