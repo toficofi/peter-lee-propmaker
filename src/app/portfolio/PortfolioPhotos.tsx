@@ -12,6 +12,7 @@ import Thumbnails from "yet-another-react-lightbox/plugins/thumbnails";
 import Zoom from "yet-another-react-lightbox/plugins/zoom";
 import "yet-another-react-lightbox/plugins/thumbnails.css";
 import { useState } from "react";
+import { cn } from "@/lib/utils";
 
 interface Props {
   images: Photo[];
@@ -43,7 +44,7 @@ export default function PortfolioPhotos({ images }: Props) {
         index={index}
         close={() => setIndex(-1)}
         // enable optional lightbox plugins
-        plugins={[Fullscreen, Slideshow, Thumbnails, Zoom]}
+        plugins={[Thumbnails, Zoom]}
       />
     </div>
   );
@@ -59,10 +60,11 @@ function NextJsImage({
       <Image
         fill
         src={photo.src}
+        className={cn("hover:brightness-50 transition", className)}
         placeholder={"blurDataURL" in photo ? "blur" : undefined}
         blurDataURL={(photo as any).blurDataURL}
         alt=""
-        {...{ title, sizes, className, onClick }}
+        {...{ title, sizes, onClick }}
       />
     </div>
   );
