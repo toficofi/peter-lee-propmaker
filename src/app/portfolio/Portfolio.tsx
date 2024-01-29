@@ -24,21 +24,21 @@ async function processImages() {
 
       const { base64 } = await getPlaiceholder(file);
 
-      const src = url.replaceAll("/public", "");
+      const src = url.replaceAll("/public", "").replaceAll(" ", "%20");
 
       return {
         src,
         width,
         height,
         blurDataURL: base64,
-        // srcSet: breakpoints.map((breakpoint) => {
-        //   const calculatedHeight = Math.round((height / width) * breakpoint);
-        //   return {
-        //     src,
-        //     width: breakpoint,
-        //     height: calculatedHeight,
-        //   };
-        // }),
+        srcSet: breakpoints.map((breakpoint) => {
+          const calculatedHeight = Math.round((height / width) * breakpoint);
+          return {
+            src,
+            width: breakpoint,
+            height: calculatedHeight,
+          };
+        }),
       };
     })
   );
