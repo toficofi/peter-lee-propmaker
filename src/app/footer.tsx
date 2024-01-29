@@ -18,7 +18,7 @@ export default function Footer() {
           <a className="mt-4 block" href={links.contact}>
             <Button
               size="lg"
-              className="flex bg-neutral-50 text-neutral-900 hover:bg-neutral-200 hover:text-neutral-800 w-full md:w-auto"
+              className="flex text-neutral-900 hover:bg-neutral-200 hover:text-neutral-800 w-full md:w-auto"
             >
               Get in touch <ArrowRightIcon className="w-4 h-4 ml-2 mb-0.5" />
             </Button>

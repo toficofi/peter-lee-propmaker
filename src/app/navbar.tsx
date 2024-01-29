@@ -20,7 +20,7 @@ export default function Navbar() {
           <div className="w-4 h-4 bg-gray-900 rounded-full flex-none" />
           <h1 className="text-md font-medium">Peter Lee Propmaker</h1>
         </div>
-        <Button className="flex bg-neutral-50 text-neutral-900 hover:bg-neutral-200 hover:text-neutral-800">
+        <Button className="flex text-neutral-900 hover:bg-neutral-200 hover:text-neutral-800">
           Get in touch <ArrowRightIcon className="w-4 h-4 ml-2 mb-0.5" />
         </Button>
       </div>
