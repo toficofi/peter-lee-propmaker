@@ -18,6 +18,7 @@ import {
   VenetianMask,
 } from "lucide-react";
 import Image from "next/image";
+import { links } from "../links";
 
 // Graduating with a degree in furniture design, my works include film, TV, exhibition, architectural, prototyping, window display and escape room props and build.
 
@@ -60,13 +61,13 @@ export default function Hero() {
           </div>
           <div className="flex flex-col h-full justify-evenly relative">
             <h1 className="text-3xl lg:text-4xl xl:text-5xl 2xl:text-7xl font-semibold tracking-tight text-gray-900 leading-10">
-              29 years propmaking for film, TV and others
+              30+ years of experience propmaking for film, TV and others
             </h1>
             <p className="mt-4 text-gray-400 xl:text-lg max-w-[500px]">
               With a degree in furniture design, I have a competence with a vast
               array of different materials and manufacturing techniques, built
               on a foundation of proficiency with hand tools & machinery
-              accumulated over 29 years of experience in film and TV.
+              accumulated over 30+ years of experience in film and TV.
             </p>
 
             <div className="md:mb-12">
@@ -77,10 +78,10 @@ export default function Hero() {
                 {skills.map((skill) => (
                   <div
                     key={skill.label}
-                    className="flex items-center gap-2 md:gap-4 whitespace-nowrap"
+                    className="flex items-center gap-4 whitespace-nowrap"
                   >
                     {skill.icon({ size: 18 })}
-                    <span className="leading-none text-sm md:text-base font-medium">
+                    <span className="leading-none font-medium">
                       {skill.label}
                     </span>
                   </div>
@@ -88,9 +89,12 @@ export default function Hero() {
               </div>
             </div>
             <div className="static md:absolute bottom-0 left-0 w-full flex gap-2 pt-8 md:pt-4">
-              <Button size="lg" className="flex bg-neutral-900">
-                Get in touch <ArrowRightIcon className="w-4 h-4 ml-2 mb-0.5" />
-              </Button>
+              <a href={links.contact} className="block w-full">
+                <Button size="lg" className="flex bg-neutral-900 w-full md:w-auto">
+                  Get in touch{" "}
+                  <ArrowRightIcon className="w-4 h-4 ml-2 mb-0.5" />
+                </Button>
+              </a>
               <div className="hidden lg:flex ml-auto rounded-full items-center justify-center px-4 py-1 h-10 text-gray-800 text-sm font-medium animate-bounce duration-[10s] whitespace-nowrap">
                 Scroll for portfolio
                 <ChevronsDown className="w-5 h-5 ml-2" />
@@ -107,9 +111,15 @@ export default function Hero() {
           />
           <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-transparent to-neutral-900 flex flex-col justify-end p-container pt-4 text-white">
             <div className="mb-auto hidden justify-end md:flex">
-              <Button size="lg" className="flex bg-neutral-50 text-neutral-900 hover:bg-neutral-200 hover:text-neutral-800">
-                Get in touch <ArrowRightIcon className="w-4 h-4 ml-2 mb-0.5" />
-              </Button>
+              <a href={links.contact}>
+                <Button
+                  size="lg"
+                  className="flex bg-neutral-50 text-neutral-900 hover:bg-neutral-200 hover:text-neutral-800"
+                >
+                  Get in touch{" "}
+                  <ArrowRightIcon className="w-4 h-4 ml-2 mb-0.5" />
+                </Button>
+              </a>
             </div>
             <div className="text-4xl font-semibold">Peter Lee</div>
             <div className="text-lg flex items-center gap-4 my-2">

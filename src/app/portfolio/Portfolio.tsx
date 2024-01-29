@@ -11,7 +11,11 @@ import PortfolioPhotos from "./PortfolioPhotos";
 import { getPlaiceholder } from "plaiceholder";
 import { SearchIcon } from "lucide-react";
 
+let imagesCache:Photo[]|null = null
+
 async function processImages() {
+  if (imagesCache) return imagesCache
+
   const images = await Promise.all(
     portfolio_images.map(async (item: any) => {
       const url = item.image as string;
@@ -42,6 +46,8 @@ async function processImages() {
       };
     })
   );
+
+  imagesCache = images
 
   return images;
 }
