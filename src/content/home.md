@@ -29,7 +29,6 @@ portfolio_images:
   - image: /public/uploads/portfolio/2023-07-20_12-09-42_113.jpeg
   - image: /public/uploads/portfolio/2023-07-20_11-16-36_756.webp
   - image: /public/uploads/portfolio/2023-07-20_12-06-12_038.jpeg
-  - image: public/uploads/portfolio/image-2.png
   - image: /public/uploads/portfolio/2023-07-20_12-06-04_465.jpeg
   - image: /public/uploads/portfolio/2023-07-20_12-05-58_990.jpeg
   - image: /public/uploads/portfolio/2023-07-20_12-05-53_013.jpeg
@@ -42,7 +41,6 @@ portfolio_images:
   - image: /public/uploads/portfolio/2023-07-20_12-05-00_247.jpeg
   - image: /public/uploads/portfolio/2023-07-20_12-04-28_587.jpeg
   - image: /public/uploads/portfolio/2023-07-20_11-15-15_665.webp
-  - image: public/uploads/portfolio/image-22.png
   - image: /public/uploads/portfolio/IMG_9976August 2022.jpeg
   - image: /public/uploads/portfolio/IMG_4268 (1)August 2022.jpeg
   - image: /public/uploads/portfolio/IMG_2379 (1)August 2022.jpg
