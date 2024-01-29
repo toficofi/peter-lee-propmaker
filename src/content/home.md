@@ -58,4 +58,5 @@ portfolio_images:
   - image: /public/uploads/portfolio/PMBS1366.JPG
   - image: /public/uploads/portfolio/2008-10-13_11-22-26_000.jpeg
   - image: /public/uploads/portfolio/IMG_1649August 2022.jpg
+  - image: /public/uploads/portfolio/image-2.png
 ---
