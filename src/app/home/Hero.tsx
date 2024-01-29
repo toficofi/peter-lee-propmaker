@@ -78,10 +78,10 @@ export default function Hero() {
                 {skills.map((skill) => (
                   <div
                     key={skill.label}
-                    className="flex items-center gap-4 whitespace-nowrap"
+                    className="flex items-center gap-2 md:gap-4 whitespace-nowrap"
                   >
                     {skill.icon({ size: 18 })}
-                    <span className="leading-none font-medium">
+                    <span className="leading-none font-medium text-sm md:text-base">
                       {skill.label}
                     </span>
                   </div>

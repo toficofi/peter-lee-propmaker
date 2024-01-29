@@ -9,7 +9,7 @@ import { links } from "../links";
 export default function Movies() {
   return (
     <div className="bg-neutral-900">
-      <div className="max-w-container mx-auto flex flex-col gap-12 p-container dark bg-neutral-900 text-white overflow-hidden relative">
+      <div className="max-w-container mx-auto flex flex-col gap-4 p-container dark bg-neutral-900 text-white overflow-hidden relative">
         <Image
           src={architectBackground}
           width={500}
