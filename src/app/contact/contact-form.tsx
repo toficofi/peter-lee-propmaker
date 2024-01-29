@@ -27,7 +27,8 @@ export default function ContactForm() {
     await fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: formData,
+      // @ts-ignore
+      body: new URLSearchParams(formData).toString(),
     });
 
     setSubmitting(false);
