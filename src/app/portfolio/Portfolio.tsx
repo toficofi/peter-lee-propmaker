@@ -22,7 +22,7 @@ async function processImages() {
 
     const { base64 } = await getPlaiceholder(file)
 
-    const src = url.replaceAll("public", "")
+    const src = url.replaceAll("/public", "")
   
     return {
       src,
