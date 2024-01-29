@@ -1,5 +1,5 @@
 // @ts-ignore
 import { attributes, react as HomeContent } from "@/content/home.md";
 
-const { imdb_movies,  } = attributes;
-export { imdb_movies };
+const { imdb_movies, portfolio_images } = attributes;
+export { imdb_movies, portfolio_images };
