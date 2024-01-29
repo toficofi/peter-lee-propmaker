@@ -2,7 +2,11 @@ import { Button } from "@/components/ui/button";
 import { ArrowRightIcon } from "lucide-react";
 import { links } from "./links";
 
-export default function Footer() {
+interface Props {
+  hideCTA?: boolean;
+}
+
+export default function Footer({ hideCTA }: Props) {
   return (
     <div className="bg-neutral-900">
       <div className="max-w-container mx-auto p-container dark bg-neutral-900 text-white overflow-hidden relative">
@@ -15,14 +19,16 @@ export default function Footer() {
             Experienced & adaptable maker with over 29 years in propmaking for
             film/TV in the UK.
           </p>
-          <a className="mt-4 block" href={links.contact}>
-            <Button
-              size="lg"
-              className="flex text-neutral-900 hover:bg-neutral-200 hover:text-neutral-800 w-full md:w-auto"
-            >
-              Get in touch <ArrowRightIcon className="w-4 h-4 ml-2 mb-0.5" />
-            </Button>
-          </a>
+          {!hideCTA && (
+            <a className="mt-4 block" href={links.contact}>
+              <Button
+                size="lg"
+                className="flex text-neutral-900 hover:bg-neutral-200 hover:text-neutral-800 w-full md:w-auto"
+              >
+                Get in touch <ArrowRightIcon className="w-4 h-4 ml-2 mb-0.5" />
+              </Button>
+            </a>
+          )}
         </div>
       </div>
     </div>
