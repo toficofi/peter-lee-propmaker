@@ -108,6 +108,7 @@ export default function Hero() {
             src={coverImage}
             alt="Peter Lee"
             className="object-cover"
+            placeholder="blur"
           />
           <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-transparent to-neutral-900 flex flex-col justify-end p-container pt-4 text-white">
             <div className="mb-auto hidden justify-end md:flex">
