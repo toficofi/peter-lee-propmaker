@@ -8,7 +8,7 @@ export default function Footer() {
       <div className="max-w-container mx-auto p-container dark bg-neutral-900 text-white overflow-hidden relative">
         <div className="">
           <div className="flex items-center gap-4">
-            <div className="w-4 h-4 bg-gray-100 rounded-full" />
+            <div className="size-5 bg-gray-100 rounded-full flex-none" />
             <h1 className="text-md font-medium">Peter Lee Propmaker</h1>
           </div>
           <p className="text-gray-400 mt-4 max-w-[400px]">

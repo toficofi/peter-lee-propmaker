@@ -17,7 +17,7 @@ export default function Navbar() {
           className="absolute bottom-0 left-0 h-full bg-neutral-50 border-b -z-10"
         ></motion.div>
         <div className="flex items-center gap-4">
-          <div className="w-6 h-6 bg-gray-900 rounded-full" />
+          <div className="w-4 h-4 bg-gray-900 rounded-full flex-none" />
           <h1 className="text-md font-medium">Peter Lee Propmaker</h1>
         </div>
         <Button className="flex bg-neutral-50 text-neutral-900 hover:bg-neutral-200 hover:text-neutral-800">

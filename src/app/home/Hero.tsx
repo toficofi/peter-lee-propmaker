@@ -55,7 +55,7 @@ export default function Hero() {
         <div className="grow p-container py-4 md:pt-0 flex flex-col md:h-full">
           <div className="flex items-center justify-between pb-4 md:py-4 mb-2 border-b">
             <div className="flex items-center gap-4">
-              <div className="w-6 h-6 bg-gray-900 rounded-full" />
+              <div className="size-5 bg-gray-900 rounded-full flex-none" />
               <h1 className="text-md font-medium">Peter Lee Propmaker</h1>
             </div>
           </div>
