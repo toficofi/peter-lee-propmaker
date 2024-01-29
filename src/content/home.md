@@ -26,35 +26,36 @@ imdb_movies:
     image: uploads/mv5bmjk2njgzmtetywvizs00ntmylwfjmzctodczymqznzk2njiwxkeyxkfqcgdeqxvymteymjm2ndc2._v1_ql75_ux380_cr0-0-380-562_.jpg
     role: HoD Assistant
 portfolio_images:
-  - image: public/uploads/portfolio/image-3.png
-  - image: public/uploads/portfolio/image-18.png
-  - image: public/uploads/portfolio/image-4.png
-  - image: public/uploads/portfolio/image-2.png
-  - image: public/uploads/portfolio/image-5.png
-  - image: public/uploads/portfolio/image-6.png
-  - image: public/uploads/portfolio/image-9.png
-  - image: public/uploads/portfolio/image-11.png
-  - image: public/uploads/portfolio/image-12.png
-  - image: public/uploads/portfolio/image-13.png
-  - image: public/uploads/portfolio/image-14.png
-  - image: public/uploads/portfolio/image-16.png
-  - image: public/uploads/portfolio/image-15.png
-  - image: public/uploads/portfolio/image-17.png
-  - image: public/uploads/portfolio/image-19.png
-  - image: public/uploads/portfolio/image-21.png
-  - image: public/uploads/portfolio/image-22.png
-  - image: public/uploads/portfolio/image-24.png
-  - image: public/uploads/portfolio/image-25.png
-  - image: public/uploads/portfolio/image-26.png
-  - image: public/uploads/portfolio/image-28.png
-  - image: public/uploads/portfolio/image-29.png
-  - image: public/uploads/portfolio/image-27.png
-  - image: public/uploads/portfolio/image-30.png
-  - image: public/uploads/portfolio/image-32.png
-  - image: public/uploads/portfolio/image-33.png
-  - image: public/uploads/portfolio/image-31.png
-  - image: public/uploads/portfolio/image-35.png
-  - image: public/uploads/portfolio/image-34.png
-  - image: public/uploads/portfolio/image-36.png
-  - image: public/uploads/portfolio/image-37.png
+  - image: /public/uploads/portfolio/2023-07-20_12-09-42_113.jpeg
+  - image: /public/uploads/portfolio/2023-07-20_11-16-36_756.webp
+  - image: /public/uploads/portfolio/2023-07-20_12-06-12_038.jpeg
+  - image: /public/uploads/portfolio/2023-07-20_12-06-04_465.jpeg
+  - image: /public/uploads/portfolio/2023-07-20_12-05-58_990.jpeg
+  - image: /public/uploads/portfolio/2023-07-20_12-05-53_013.jpeg
+  - image: /public/uploads/portfolio/2023-07-20_12-05-48_869.jpeg
+  - image: /public/uploads/portfolio/2023-07-20_12-05-36_576.jpeg
+  - image: /public/uploads/portfolio/2023-07-20_12-05-44_424.jpeg
+  - image: /public/uploads/portfolio/2023-07-20_12-05-31_264.jpeg
+  - image: /public/uploads/portfolio/2023-07-20_12-05-23_548.jpeg
+  - image: /public/uploads/portfolio/2023-07-20_12-05-18_020.jpeg
+  - image: /public/uploads/portfolio/2023-07-20_12-05-00_247.jpeg
+  - image: /public/uploads/portfolio/2023-07-20_12-04-28_587.jpeg
+  - image: /public/uploads/portfolio/2023-07-20_11-15-15_665.webp
+  - image: /public/uploads/portfolio/IMG_9976August 2022.jpeg
+  - image: /public/uploads/portfolio/IMG_4268 (1)August 2022.jpeg
+  - image: /public/uploads/portfolio/IMG_2379 (1)August 2022.jpg
+  - image: /public/uploads/portfolio/015.JPG
+  - image: /public/uploads/portfolio/P1010110 (3).JPG
+  - image: /public/uploads/portfolio/april 2011 041August 2022.JPG
+  - image: /public/uploads/portfolio/xmen , google , method and dec 2010 033August
+      2022.JPG
+  - image: /public/uploads/portfolio/DSCN2362.JPG
+  - image: /public/uploads/portfolio/xmen , google , method and dec 2010 068.JPG
+  - image: /public/uploads/portfolio/DSCN2345.JPG
+  - image: /public/uploads/portfolio/oct 2009 016.jpg
+  - image: /public/uploads/portfolio/oct 2009 017.jpg
+  - image: /public/uploads/portfolio/_MG_2220.JPG
+  - image: /public/uploads/portfolio/PMBS1366.JPG
+  - image: /public/uploads/portfolio/2008-10-13_11-22-26_000.jpeg
+  - image: /public/uploads/portfolio/IMG_1649August 2022.jpg
 ---
