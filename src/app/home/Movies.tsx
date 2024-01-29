@@ -15,7 +15,7 @@ export default function Movies() {
           width={500}
           alt=""
           objectFit="cover"
-          className="absolute opacity-20 md:opacity-50 top-0 right-0"
+          className="absolute opacity-20 md:opacity-50 top-0 right-0 pointer-events-none"
         />
         <div className="mb-8">
           <h2 className="text-3xl lg:text-4xl font-medium tracking-tight">
