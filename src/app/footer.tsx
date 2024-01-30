@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRightIcon } from "lucide-react";
 import { links } from "./links";
+import Copyright from "@/components/copyright";
 
 interface Props {
   hideCTA?: boolean;
@@ -9,7 +10,7 @@ interface Props {
 export default function Footer({ hideCTA }: Props) {
   return (
     <div className="bg-neutral-900">
-      <div className="max-w-container mx-auto p-container dark bg-neutral-900 text-white overflow-hidden relative">
+      <div className="max-w-container mx-auto p-container dark bg-neutral-900 text-white relative flex flex-col gap-4 md:flex-row md:justify-between">
         <div className="">
           <div className="flex items-center gap-4">
             <div className="size-5 bg-gray-100 rounded-full flex-none" />
@@ -29,6 +30,21 @@ export default function Footer({ hideCTA }: Props) {
               </Button>
             </a>
           )}
+        </div>
+        <div className="text-left md:text-right">
+          <div className="text-neutral-400">
+          © <Copyright />
+          </div>
+          <div className="text-neutral-400">
+            Built by{" "}
+            <a
+              href="https://joshbe.me"
+              target="_blank"
+              className="font-medium text-white hover:text-blue-400 transition-colors"
+            >
+              Josh Lee
+            </a>
+          </div>
         </div>
       </div>
     </div>

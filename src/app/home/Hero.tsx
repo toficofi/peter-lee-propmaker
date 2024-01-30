@@ -1,21 +1,10 @@
 import coverImage from "@/assets/images/peter-cover.jpg";
 import { Button } from "@/components/ui/button";
 import {
-  ArrowRightIcon,
-  ArrowUpRight,
-  CastleIcon,
+  ArrowRightIcon, CastleIcon,
   ChevronsDown,
-  ClapperboardIcon,
-  ExternalLink,
-  FilmIcon,
-  LocateFixed,
-  MoveUpRight,
-  PanelTopDashed,
-  PencilRulerIcon,
-  ScrollIcon,
-  StoreIcon,
-  TvIcon,
-  VenetianMask,
+  ClapperboardIcon, LocateFixed, PanelTopDashed,
+  PencilRulerIcon, StoreIcon, VenetianMask
 } from "lucide-react";
 import Image from "next/image";
 import { links } from "../links";
@@ -48,6 +37,7 @@ const skills = [
     label: "Escape rooms",
   },
 ];
+
 export default function Hero() {
   return (
     <div className="bg-gray-50">

@@ -65,7 +65,7 @@ export default async function Portfolio() {
           <p className="text-gray-600 mt-4 max-w-[400px]">
           Featured in this portfolio are single handed makes, collaboration makes and makes I have supervised.
           </p>
-          <p className="bg-blue-100 border-l-4 border-l-blue-300 p-2 mt-6 text-sky-800 inline-flex items-center font-medium"><SearchIcon className="w-5 h-5 mr-4"/> Tap an image to expand it</p>
+          <p className="bg-blue-100 border-l-4 border-l-blue-300 p-2 mt-6 pr-4 text-sky-800 inline-flex items-center font-medium"><SearchIcon className="w-5 h-5 mr-4"/> Tap an image to expand it</p>
         </div>
         <PortfolioPhotos images={images} />
       </div>
