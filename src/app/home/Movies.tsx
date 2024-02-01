@@ -5,10 +5,15 @@ import Image from "next/image";
 import imdbIcon from "@/assets/images/imdb.png";
 import { Button } from "@/components/ui/button";
 import { links } from "../links";
+import {
+  SectionHeader,
+  SectionHeaderDescription,
+  SectionHeaderTitle,
+} from "@/components/section-header";
 
 export default function Movies() {
   return (
-    <div className="bg-neutral-900">
+    <div className="bg-neutral-900 dark">
       <div className="max-w-container mx-auto flex flex-col gap-4 p-container dark bg-neutral-900 text-white overflow-hidden relative">
         <Image
           src={architectBackground}
@@ -17,16 +22,14 @@ export default function Movies() {
           objectFit="cover"
           className="absolute opacity-20 md:opacity-50 top-0 right-0 pointer-events-none"
         />
-        <div className="mb-8">
-          <h2 className="text-3xl lg:text-4xl font-medium tracking-tight">
-            Credits in film and TV
-          </h2>
-          <p className="text-gray-400 mt-4 max-w-[400px]">
+        <SectionHeader>
+          <SectionHeaderTitle>Credits in film and TV</SectionHeaderTitle>
+          <SectionHeaderDescription>
             Over the years, I&apos;ve accumulated{" "}
             <span className="text-white font-medium">70+ credits</span> on
             various film and TV productions, each with their own unique
             challenges and requirements.
-          </p>
+          </SectionHeaderDescription>
           <div className="mt-4">
             <a
               href={links.imdb}
@@ -44,7 +47,7 @@ export default function Movies() {
               </span>
             </a>
           </div>
-        </div>
+        </SectionHeader>
         <div className="mt-auto">
           <IMDBCarousel />
         </div>

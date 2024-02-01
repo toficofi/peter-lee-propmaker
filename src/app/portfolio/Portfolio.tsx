@@ -10,6 +10,7 @@ import type { Photo, RenderPhotoProps } from "react-photo-album";
 import PortfolioPhotos from "./PortfolioPhotos";
 import { getPlaiceholder } from "plaiceholder";
 import { SearchIcon } from "lucide-react";
+import { SectionHeader, SectionHeaderDescription, SectionHeaderTitle } from "@/components/section-header";
 
 let imagesCache:Photo[]|null = null
 
@@ -58,15 +59,13 @@ export default async function Portfolio() {
   return (
     <div className="bg-neutral-100">
       <div className="max-w-container mx-auto p-container">
-        <div className="mb-4">
-          <h2 className="text-3xl lg:text-4xl font-semibold tracking-tight">
-            Portfolio
-          </h2>
-          <p className="text-gray-600 mt-4 max-w-[400px]">
-          Featured in this portfolio are single handed makes, collaboration makes and makes I have supervised.
-          </p>
+        <SectionHeader className="mb-4">
+          <SectionHeaderTitle>Portfolio</SectionHeaderTitle>
+          <SectionHeaderDescription>
+            Featured in this portfolio are single handed makes, collaboration makes and makes I have supervised.
+          </SectionHeaderDescription>
           <p className="bg-blue-100 border-l-4 border-l-blue-300 p-2 mt-6 pr-4 text-sky-800 inline-flex items-center font-medium"><SearchIcon className="w-5 h-5 mr-4"/> Tap an image to expand it</p>
-        </div>
+        </SectionHeader>
         <PortfolioPhotos images={images} />
       </div>
     </div>
