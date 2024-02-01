@@ -3,6 +3,7 @@
 import { motion, useScroll, useTransform } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { ArrowRightIcon } from "lucide-react";
+import { title } from "./home/data";
 
 export default function Navbar() {
   const { scrollY } = useScroll();
@@ -18,7 +19,7 @@ export default function Navbar() {
         ></motion.div>
         <div className="flex items-center gap-4">
           <div className="w-4 h-4 bg-gray-900 rounded-full flex-none" />
-          <h1 className="text-md font-medium">Peter Lee Propmaker</h1>
+          <h1 className="text-md font-medium">{title}</h1>
         </div>
         <Button className="flex text-neutral-900 hover:bg-neutral-200 hover:text-neutral-800">
           Get in touch <ArrowRightIcon className="w-4 h-4 ml-2 mb-0.5" />

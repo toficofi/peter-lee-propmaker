@@ -30,7 +30,7 @@ export default function Movies() {
             various film and TV productions, each with their own unique
             challenges and requirements.
           </SectionHeaderDescription>
-          <div className="mt-4">
+          <div className="mb-4 mt-2">
             <a
               href={links.imdb}
               target="_blank"

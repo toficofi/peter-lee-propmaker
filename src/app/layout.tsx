@@ -3,11 +3,12 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Script from "next/script";
 import { cn } from "@/lib/utils";
+import { title } from "./home/data";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Peter Lee Propmaker",
+  title: title,
   description: "Experienced & adaptable maker with over 29 years in propmaking for film/TV in the UK.",
   metadataBase: new URL("https://peterleepropmaker.com")
 };

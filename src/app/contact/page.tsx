@@ -4,6 +4,7 @@ import Image from "next/image";
 import coverImage from "@/assets/images/peter-cover.jpg";
 import { ArrowRightIcon, LocateFixed } from "lucide-react";
 import Footer from "../footer";
+import { title } from "../home/data";
 
 export default function Contact() {
   return (
@@ -14,7 +15,7 @@ export default function Contact() {
             <div className="flex items-center justify-between pb-4 border-b mb-4 md:py-4">
               <div className="flex items-center gap-4">
                 <div className="size-5 bg-gray-900 rounded-full flex-none" />
-                <h1 className="text-md font-medium">Peter Lee Propmaker</h1>
+                <h1 className="text-md font-medium">{title}</h1>
               </div>
             </div>
             <div className="">
@@ -44,7 +45,7 @@ export default function Contact() {
               <LocateFixed /> Based in the UK
             </div>
             <div className="max-w-[400px]">
-              Experienced and adaptive propmaker with involvement in{" "}
+              Experienced and adaptive maker with involvement in{" "}
               <span className="font-semibold">
                 armoury, set dec and hand props.
               </span>

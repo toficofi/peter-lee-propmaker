@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { ArrowRightIcon } from "lucide-react";
 import { links } from "./links";
 import Copyright from "@/components/copyright";
+import { title } from "./home/data";
 
 interface Props {
   hideCTA?: boolean;
@@ -14,7 +15,7 @@ export default function Footer({ hideCTA }: Props) {
         <div className="">
           <div className="flex items-center gap-4">
             <div className="size-5 bg-gray-100 rounded-full flex-none" />
-            <h1 className="text-md font-medium">Peter Lee Propmaker</h1>
+            <h1 className="text-md font-medium">{title}</h1>
           </div>
           <p className="text-gray-400 mt-4 max-w-[400px]">
             Experienced & adaptable maker with over 29 years in propmaking for

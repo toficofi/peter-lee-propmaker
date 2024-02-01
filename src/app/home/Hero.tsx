@@ -8,6 +8,7 @@ import {
 } from "lucide-react";
 import Image from "next/image";
 import { links } from "../links";
+import { title } from "./data";
 
 // Graduating with a degree in furniture design, my works include film, TV, exhibition, architectural, prototyping, window display and escape room props and build.
 
@@ -46,7 +47,7 @@ export default function Hero() {
           <div className="flex items-center justify-between pb-4 md:py-4 mb-2 border-b">
             <div className="flex items-center gap-4">
               <div className="size-5 bg-gray-900 rounded-full flex-none" />
-              <h1 className="text-md font-medium">Peter Lee Propmaker</h1>
+              <h1 className="text-md font-medium">{title}</h1>
             </div>
           </div>
           <div className="flex flex-col h-full justify-evenly relative">
@@ -117,7 +118,7 @@ export default function Hero() {
               <LocateFixed /> Based in the UK
             </div>
             <div className="max-w-[400px]">
-              Experienced and adaptive propmaker with involvement in{" "}
+              Experienced and adaptive maker with involvement in{" "}
               <span className="font-semibold">
                 armoury, set dec and hand props.
               </span>

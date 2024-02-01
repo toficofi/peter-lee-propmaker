@@ -2,6 +2,7 @@ import Image from "next/image";
 import coverImage from "@/assets/images/peter-cover.jpg";
 import { Button } from "@/components/ui/button";
 import { ArrowRightIcon, LocateFixed } from "lucide-react";
+import { title } from "../home/data";
 
 export default function Social() {
   return (
@@ -10,7 +11,7 @@ export default function Social() {
         <div className="flex items-center justify-between pb-4 md:py-4 mb-2 border-b">
           <div className="flex items-center gap-4">
             <div className="size-5 bg-gray-900 rounded-full flex-none" />
-            <h1 className="text-2xl font-semibold">Peter Lee Propmaker</h1>
+            <h1 className="text-2xl font-semibold">{title}</h1>
           </div>
         </div>
         <p className="text-4xl font-semibold tracking-tight text-gray-900 leading-10">
