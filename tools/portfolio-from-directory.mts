@@ -18,7 +18,7 @@ imageFileNames.sort((a, b) => {
 });
 
 // Define an array to store the YAML structure
-const yamlData = [];
+const yamlData:any[] = [];
 
 // Iterate through the sorted imageFileNames and create the YAML structure
 imageFileNames.forEach((fileName) => {
