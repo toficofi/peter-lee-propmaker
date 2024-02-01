@@ -25,3 +25,12 @@ collections:
           widget: list
           fields:
             - { label: "Image", name: "image", widget: "image", choose_url: false, media_folder: "/public/uploads/portfolio"}
+            - label: "Category"
+              name: "category"
+              widget: "select"
+              options:
+                - { label: "Propmaking", value: "propmaking" }
+                - { label: "Modelmaking", value: "modelmaking"}
+                - { label: "Garden design", value: "garden_design"}
+                - { label: "Kobujutsu training weapons", value: "kobujutsu_training_weapons"}
+                - { label: "Lino prints", value: "lino_prints"}
