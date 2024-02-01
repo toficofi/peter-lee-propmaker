@@ -27,36 +27,68 @@ imdb_movies:
     role: HoD Assistant
 portfolio_images:
   - image: /public/uploads/portfolio/2023-07-20_12-09-42_113.jpeg
+    category: propmaking
   - image: /public/uploads/portfolio/2023-07-20_11-16-36_756.webp
+    category: propmaking
   - image: /public/uploads/portfolio/2023-07-20_12-06-12_038.jpeg
+    category: propmaking
   - image: /public/uploads/portfolio/2023-07-20_12-06-04_465.jpeg
+    category: propmaking
   - image: /public/uploads/portfolio/2023-07-20_12-05-58_990.jpeg
+    category: propmaking
   - image: /public/uploads/portfolio/2023-07-20_12-05-53_013.jpeg
+    category: propmaking
   - image: /public/uploads/portfolio/2023-07-20_12-05-48_869.jpeg
+    category: propmaking
   - image: /public/uploads/portfolio/2023-07-20_12-05-36_576.jpeg
+    category: propmaking
   - image: /public/uploads/portfolio/2023-07-20_12-05-44_424.jpeg
+    category: propmaking
   - image: /public/uploads/portfolio/2023-07-20_12-05-31_264.jpeg
+    category: propmaking
   - image: /public/uploads/portfolio/2023-07-20_12-05-23_548.jpeg
+    category: propmaking
   - image: /public/uploads/portfolio/2023-07-20_12-05-18_020.jpeg
+    category: propmaking
   - image: /public/uploads/portfolio/2023-07-20_12-05-00_247.jpeg
+    category: propmaking
   - image: /public/uploads/portfolio/2023-07-20_12-04-28_587.jpeg
+    category: propmaking
   - image: /public/uploads/portfolio/2023-07-20_11-15-15_665.webp
+    category: propmaking
   - image: /public/uploads/portfolio/IMG_9976August 2022.jpeg
+    category: propmaking
   - image: /public/uploads/portfolio/IMG_4268 (1)August 2022.jpeg
+    category: propmaking
   - image: /public/uploads/portfolio/IMG_2379 (1)August 2022.jpg
+    category: propmaking
   - image: /public/uploads/portfolio/015.JPG
+    category: propmaking
   - image: /public/uploads/portfolio/P1010110 (3).JPG
+    category: propmaking
   - image: /public/uploads/portfolio/april 2011 041August 2022.JPG
+    category: propmaking
   - image: /public/uploads/portfolio/xmen , google , method and dec 2010 033August
       2022.JPG
+    category: propmaking
   - image: /public/uploads/portfolio/DSCN2362.JPG
+    category: propmaking
   - image: /public/uploads/portfolio/xmen , google , method and dec 2010 068.JPG
+    category: propmaking
   - image: /public/uploads/portfolio/DSCN2345.JPG
+    category: propmaking
   - image: /public/uploads/portfolio/oct 2009 016.jpg
+    category: propmaking
   - image: /public/uploads/portfolio/oct 2009 017.jpg
+    category: propmaking
   - image: /public/uploads/portfolio/_MG_2220.JPG
+    category: propmaking
   - image: /public/uploads/portfolio/PMBS1366.JPG
+    category: propmaking
   - image: /public/uploads/portfolio/2008-10-13_11-22-26_000.jpeg
+    category: propmaking
   - image: /public/uploads/portfolio/IMG_1649August 2022.jpg
+    category: propmaking
   - image: /public/uploads/portfolio/image-2.png
+    category: propmaking
 ---
