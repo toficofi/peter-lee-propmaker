@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ArrowRightIcon } from "lucide-react";
+import { ArrowRightIcon, ArrowUpRight } from "lucide-react";
 import { links } from "./links";
 import Copyright from "@/components/copyright";
 import { title } from "./home/data";
@@ -33,19 +33,47 @@ export default function Footer({ hideCTA }: Props) {
           )}
         </div>
         <div className="text-left md:text-right">
-          <div className="text-neutral-400">
-          © <Copyright />
+          <div>
+            <div className="text-neutral-400">
+              © <Copyright />
+            </div>
           </div>
-          <div className="text-neutral-400">
-            Built by{" "}
+          <div className="flex flex-col">
             <a
-              href="https://joshbe.me"
+              href={links.imdb}
               target="_blank"
-              className="font-medium text-white hover:text-blue-400 transition-colors"
+              className="hover:text-[#E7BF0B] transition-colors flex md:justify-end"
             >
-              Josh Lee
+              IMDB
+              <ArrowUpRight className="w-5 h-5 ml-1" />
+            </a>
+            <a
+              href={links.mandy}
+              target="_blank"
+              className="hover:text-[#34BBA0] transition-colors flex md:justify-end"
+            >
+              Mandy
+              <ArrowUpRight className="w-5 h-5 ml-1" />
+            </a>
+            <a 
+            href={links.filmbase}
+            target="_blank"
+            className="hover:text-[#d26bc6] transition-colors flex md:justify-end"
+            >
+              Filmbase
+              <ArrowUpRight className="w-5 h-5 ml-1" />
             </a>
           </div>
+          <div className="text-neutral-400 mt-8">
+              Built by{" "}
+              <a
+                href="https://joshbe.me"
+                target="_blank"
+                className="font-medium text-white hover:text-blue-400 transition-colors"
+              >
+                Josh Lee
+              </a>
+            </div>
         </div>
       </div>
     </div>

@@ -93,7 +93,7 @@ export default async function Portfolio() {
   return (
     <div className="bg-neutral-100">
       <div className="max-w-container mx-auto p-container">
-        <SectionHeader className="mb-4">
+        <SectionHeader className="mb-8">
           <SectionHeaderTitle>Portfolio</SectionHeaderTitle>
           <SectionHeaderDescription>
             Featured in this portfolio are single handed makes, collaboration
@@ -106,7 +106,7 @@ export default async function Portfolio() {
         {Object.keys(images).map((category) => {
           return (
             <div key={category} className="mb-8">
-              <h2 className="text-2xl font-semibold mb-4 font-sans text-neutral-700">
+              <h2 className="text-4xl font-light mb-6 font-sans tracking-wide text-left uppercase">
                 {CATEGORY_TITLES[category as keyof typeof CATEGORY_TITLES]}
               </h2>
               <PortfolioPhotos photos={images[category]} />

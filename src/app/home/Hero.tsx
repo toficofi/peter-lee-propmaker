@@ -1,10 +1,18 @@
 import coverImage from "@/assets/images/peter-cover.jpg";
+import mandyImage from "@/assets/images/mandy-logo.svg";
+import filmbaseImage from "@/assets/images/filmbase-logo.png";
 import { Button } from "@/components/ui/button";
 import {
-  ArrowRightIcon, CastleIcon,
+  ArrowRightIcon,
+  ArrowUpRight,
+  CastleIcon,
   ChevronsDown,
-  ClapperboardIcon, LocateFixed, PanelTopDashed,
-  PencilRulerIcon, StoreIcon, VenetianMask
+  ClapperboardIcon,
+  LocateFixed,
+  PanelTopDashed,
+  PencilRulerIcon,
+  StoreIcon,
+  VenetianMask,
 } from "lucide-react";
 import Image from "next/image";
 import { links } from "../links";
@@ -81,7 +89,10 @@ export default function Hero() {
             </div>
             <div className="static md:absolute bottom-0 left-0 w-full flex gap-2 pt-8 md:pt-4">
               <a href={links.contact} className="block w-full">
-                <Button size="lg" className="flex bg-neutral-900 w-full md:w-auto">
+                <Button
+                  size="lg"
+                  className="flex bg-neutral-900 w-full md:w-auto"
+                >
                   Get in touch{" "}
                   <ArrowRightIcon className="w-4 h-4 ml-2 mb-0.5" />
                 </Button>
@@ -122,6 +133,44 @@ export default function Hero() {
               <span className="font-semibold">
                 armoury, set dec and hand props.
               </span>
+              <div className="mt-4 flex flex-col md:flex-row gap-2 md:gap-4">
+                <a
+                  href={links.mandy}
+                  target="_blank"
+                  className="inline-flex items-center hover:text-[#34BBA0] group"
+                >
+                  <div className="bg-white rounded-full w-10 h-10 flex justify-center items-center mr-2">
+                    <Image
+                      src={mandyImage}
+                      width={32}
+                      alt="Mandy logo"
+                      className="mr-0.5"
+                    />{" "}
+                  </div>
+                  <span className="ml-2 flex font-semibold items-center transition-transform group-hover:translate-x-1">
+                    Mandy.com
+                    <ArrowUpRight className="w-5 h-5 mb-2 ml-1" />
+                  </span>
+                </a>
+                <a
+                  href={links.filmbase }
+                  target="_blank"
+                  className="inline-flex items-center hover:text-[#d26bc6] group"
+                >
+                  <div className="bg-black rounded-full w-10 h-10 flex justify-center items-center mr-2">
+                    <Image
+                      src={filmbaseImage}
+                      width={32}
+                      alt="Filmbase logo"
+                      className="mr-0.5"
+                    />{" "}
+                  </div>
+                  <span className="ml-2 flex font-semibold items-center transition-transform group-hover:translate-x-1">
+                    Filmbase.uk
+                    <ArrowUpRight className="w-5 h-5 mb-2 ml-1" />
+                  </span>
+                </a>
+              </div>
             </div>
           </div>
         </div>
