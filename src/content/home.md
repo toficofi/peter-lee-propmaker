@@ -1,20 +1,5 @@
 ---
 imdb_movies:
-  - name: Loki
-    url: https://m.imdb.com/title/tt9140554/?ref_=nm_flmg_t_2_ardp
-    year: "2023"
-    image: uploads/mv5bnty1zdqznzqtzgm1yy00yjrhltliymmtogm2owflytrjotc2xkeyxkfqcgdeqxvymty3mde5mdy1._v1_ql75_uy562_cr35-0-380-562_.jpg
-    role: Senior prop modeler
-  - name: The Continental
-    url: https://m.imdb.com/title/tt6486762/?ref_=nm_flmg_c_3_ardp
-    year: "2023"
-    image: uploads/mv5bzdk1mmi3ywetmge0ms00zjfllwixmjgtmjc5mmrjotzimdc2xkeyxkfqcgdeqxvymdm2ndm2mq-._v1_ql75_ux380_cr0-0-380-562_.jpg
-    role: Senior prop modeler
-  - name: "Meg 2: The Trench"
-    url: https://m.imdb.com/title/tt9224104/?ref_=tt_mv_close
-    year: "2023"
-    image: uploads/mv5bmtm2ntu1ztktnjc4ys00njnhlwe4nmytotm2yjfjoguznmyzxkeyxkfqcgdeqxvyode5nze3ote-._v1_ql75_ux380_cr0-0-380-562_.jpg
-    role: Senior prop modeler
   - name: Guardians of the Galaxy
     url: https://m.imdb.com/title/tt2015381/?ref_=nm_flmg_c_25_ardp
     year: "2014"
