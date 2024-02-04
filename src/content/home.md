@@ -67,16 +67,16 @@ imdb_movies:
     image: uploads/mv5bmtzizgy5mjetnju3yi00ogjmltlkmdatogq5mty4ndaxmde0xkeyxkfqcgdeqxvymtuzmduznti3._v1_ql75_ux380_cr0-1-380-562_.jpg
 portfolio_images:
   - image: /public/uploads/portfolio/2023-05-22_15-03-17_558.jpg
-    category: propmaking
+    category: modelmaking
   - image: /public/uploads/portfolio/104_0426.jpg
-    category: propmaking
+    category: garden_design
   - image: /public/uploads/portfolio/2024-01-30_14-38-22_000
       (2024-01-30T17_34_42.783).jpeg
-    category: propmaking
+    category: kobujutsu_training_weapons
   - image: /public/uploads/portfolio/147_4749.jpg
-    category: propmaking
+    category: garden_design
   - image: /public/uploads/portfolio/jan 2010 085.JPG
-    category: propmaking
+    category: kobujutsu_training_weapons
   - image: /public/uploads/portfolio/IMG_3034.jpg
     category: propmaking
   - image: /public/uploads/portfolio/2024-01-30_14-38-21_000
