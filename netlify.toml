@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "/admin/index.html"
+  to = "/admin"
+  status = 200
+  force = true
