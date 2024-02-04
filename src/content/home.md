@@ -1,5 +1,10 @@
 ---
 imdb_movies:
+  - name: Guardians of the Galaxy
+    url: https://m.imdb.com/title/tt2015381/?ref_=nm_flmg_c_25_ardp
+    year: "2014"
+    role: Senior Propmaker
+    image: uploads/mv5bndizmtk4ndytmjg5os00zgi0lwjhzdytmzdmzgy1ywu5zgnkxkeyxkfqcgdeqxvymti5nzuymtiz._v1_fmjpg_ux1012_.jpg
   - name: "LotR: The Rings of Power"
     year: "2022"
     url: https://m.imdb.com/title/tt7631058
@@ -25,6 +30,11 @@ imdb_movies:
     url: https://m.imdb.com/title/tt11198330/?ref_=nm_flmg_t_5_ardp
     image: uploads/mv5bmjk2njgzmtetywvizs00ntmylwfjmzctodczymqznzk2njiwxkeyxkfqcgdeqxvymteymjm2ndc2._v1_ql75_ux380_cr0-0-380-562_.jpg
     role: HoD Assistant
+  - name: "Star Wars: The Rise of Skywalker"
+    url: https://m.imdb.com/title/tt2527338/?ref_=nm_flmg_c_8_ardp
+    year: "2019"
+    role: Supervising Props Modeler
+    image: uploads/mv5bmjjkyzuzzjutodjhms00mzbjltlkmjatmta0ytk1yjgzzdi1xkeyxkfqcgdeqxvyndq0mjg4nty-._v1_fmjpg_ux674_.jpg
 portfolio_images:
   - image: /public/uploads/portfolio/2023-05-22_15-03-17_558.jpg
     category: propmaking
