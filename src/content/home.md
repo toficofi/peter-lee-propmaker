@@ -59,7 +59,7 @@ portfolio_images:
   - image: /public/uploads/portfolio/IMG_1964August 2022.jpg
     category: propmaking
   - image: /public/uploads/portfolio/april 2010 032.jpg
-    category: propmaking
+    category: modelmaking
   - image: /public/uploads/portfolio/2014-06-03_16-48-16_000.jpeg
     category: propmaking
   - image: /public/uploads/portfolio/2024-01-30_14-38-22_000.jpeg
@@ -73,7 +73,7 @@ portfolio_images:
   - image: /public/uploads/portfolio/jan 2010 080.JPG
     category: propmaking
   - image: /public/uploads/portfolio/104_0420.jpg
-    category: propmaking
+    category: modelmaking
   - image: /public/uploads/portfolio/may 2010 006.jpg
     category: propmaking
   - image: /public/uploads/portfolio/2014-06-03_08-08-07_000.jpeg
@@ -101,7 +101,7 @@ portfolio_images:
   - image: /public/uploads/portfolio/IMG_2379 (1)August 2022.jpg
     category: propmaking
   - image: /public/uploads/portfolio/IMG_9976August 2022.jpeg
-    category: propmaking
+    category: modelmaking
   - image: /public/uploads/portfolio/xmen , google , method and dec 2010 068.JPG
     category: propmaking
   - image: /public/uploads/portfolio/2023-07-20_12-05-23_548.jpeg

@@ -13,17 +13,18 @@ import Zoom from "yet-another-react-lightbox/plugins/zoom";
 import "yet-another-react-lightbox/plugins/thumbnails.css";
 import { useState } from "react";
 import { cn } from "@/lib/utils";
+import { PhotoEnhanced } from "./portfolio.types";
 
 interface Props {
-  images: Photo[];
+  photos: PhotoEnhanced[];
 }
-export default function PortfolioPhotos({ images }: Props) {
+export default function PortfolioPhotos({ photos }: Props) {
   const [index, setIndex] = useState(-1);
 
   return (
     <div>
       <PhotoAlbum
-        photos={images}
+        photos={photos as Photo[]} // react-photo-album types are not compatible with our custom types
         layout="rows"
         spacing={4}
         renderPhoto={NextJsImage}
@@ -39,7 +40,7 @@ export default function PortfolioPhotos({ images }: Props) {
         }}
       />
       <Lightbox
-        slides={images}
+        slides={photos as Photo[]}
         open={index >= 0}
         index={index}
         close={() => setIndex(-1)}
