@@ -68,8 +68,18 @@ imdb_movies:
   - name: Moon
     url: https://m.imdb.com/title/tt1182345/?ref_=nm_flmg_t_49_ardp
     year: "2009"
-    role: Model Maker
+    role: Modelmaker
     image: uploads/mv5bmtgzodgyntqwov5bml5banbnxkftztcwnzc0ntc0mg-._v1_ql75_uy562_cr1-0-380-562_.jpg
+  - name: GoldenEye
+    url: https://m.imdb.com/title/tt0113189/?ref_=nm_flmg_t_68_ardp
+    year: "1995"
+    role: Modelmaker
+    image: uploads/mv5bnzm4ythlztytmmvhny00mmezlwiyy2itzgrjmwrjytfmntlmxkeyxkfqcgdeqxvymtewndu1mzey._v1_ql75_uy562_cr23-0-380-562_.jpg
+  - name: The World Is Not Enough
+    url: https://m.imdb.com/title/tt0143145/?ref_=nm_flmg_t_64_ardp
+    year: "1999"
+    role: Modelmaker
+    image: uploads/mv5bmtzizgy5mjetnju3yi00ogjmltlkmdatogq5mty4ndaxmde0xkeyxkfqcgdeqxvymtuzmduznti3._v1_ql75_ux380_cr0-1-380-562_.jpg
 portfolio_images:
   - image: /public/uploads/portfolio/2023-05-22_15-03-17_558.jpg
     category: propmaking
