@@ -1,15 +1,5 @@
 ---
 imdb_movies:
-  - name: Guardians of the Galaxy
-    url: https://m.imdb.com/title/tt2015381/?ref_=nm_flmg_c_25_ardp
-    year: "2014"
-    role: Senior Propmaker
-    image: uploads/mv5bndizmtk4ndytmjg5os00zgi0lwjhzdytmzdmzgy1ywu5zgnkxkeyxkfqcgdeqxvymti5nzuymtiz._v1_fmjpg_ux1012_.jpg
-  - name: "LotR: The Rings of Power"
-    year: "2022"
-    url: https://m.imdb.com/title/tt7631058
-    image: uploads/mv5bntg3njcxyzgtyjljnc00y2i2lwe3ymmtotliztkwyte1mmzixkeyxkfqcgdeqxvynty4ndc5mde-._v1_fmjpg_ux1080_.jpg
-    role: Supervisor prop armourer
   - name: Loki
     url: https://m.imdb.com/title/tt9140554/?ref_=nm_flmg_t_2_ardp
     year: "2023"
@@ -25,16 +15,61 @@ imdb_movies:
     year: "2023"
     image: uploads/mv5bmtm2ntu1ztktnjc4ys00njnhlwe4nmytotm2yjfjoguznmyzxkeyxkfqcgdeqxvyode5nze3ote-._v1_ql75_ux380_cr0-0-380-562_.jpg
     role: Senior prop modeler
-  - name: House of the Dragon
-    year: "2022"
-    url: https://m.imdb.com/title/tt11198330/?ref_=nm_flmg_t_5_ardp
-    image: uploads/mv5bmjk2njgzmtetywvizs00ntmylwfjmzctodczymqznzk2njiwxkeyxkfqcgdeqxvymteymjm2ndc2._v1_ql75_ux380_cr0-0-380-562_.jpg
-    role: HoD Assistant
+  - name: Guardians of the Galaxy
+    url: https://m.imdb.com/title/tt2015381/?ref_=nm_flmg_c_25_ardp
+    year: "2014"
+    role: Senior Propmaker
+    image: uploads/mv5bndizmtk4ndytmjg5os00zgi0lwjhzdytmzdmzgy1ywu5zgnkxkeyxkfqcgdeqxvymti5nzuymtiz._v1_fmjpg_ux1012_.jpg
   - name: "Star Wars: The Rise of Skywalker"
     url: https://m.imdb.com/title/tt2527338/?ref_=nm_flmg_c_8_ardp
     year: "2019"
     role: Supervising Props Modeler
     image: uploads/mv5bmjjkyzuzzjutodjhms00mzbjltlkmjatmta0ytk1yjgzzdi1xkeyxkfqcgdeqxvyndq0mjg4nty-._v1_fmjpg_ux674_.jpg
+  - name: "Solo: A Star Wars Story"
+    url: https://m.imdb.com/title/tt3778644/?ref_=nm_flmg_t_12_ardp
+    year: "2018"
+    role: Senior Props Maker
+    image: uploads/mv5botm2nti3ntc3nl5bml5banbnxkftztgwnzm1otqyntm-._v1_ql75_ux380_cr0-0-380-562_.jpg
+  - name: "Star Wars: Episode VIII - The Last Jedi"
+    url: https://m.imdb.com/title/tt2527336/?ref_=nm_flmg_t_13_ardp
+    year: "2017"
+    role: Senior Propmaker
+    image: uploads/mv5bmjq1mzcxnjg4n15bml5banbnxkftztgwnzgwmjy4mzi-._v1_ql75_ux380_cr0-0-380-562_.jpg
+  - name: The Martian
+    year: "2015"
+    url: https://m.imdb.com/title/tt3659388/?ref_=nm_flmg_c_18_ardp
+    image: uploads/mv5bmtc2mtq3mda1nl5bml5banbnxkftztgwoda3oti4nje-._v1_ql75_uy562_cr0-0-380-562_.jpg
+    role: Props
+  - name: "LotR: The Rings of Power"
+    year: "2022"
+    url: https://m.imdb.com/title/tt7631058
+    image: uploads/mv5bntg3njcxyzgtyjljnc00y2i2lwe3ymmtotliztkwyte1mmzixkeyxkfqcgdeqxvynty4ndc5mde-._v1_fmjpg_ux1080_.jpg
+    role: Supervisor prop armourer
+  - name: House of the Dragon
+    year: "2022"
+    url: https://m.imdb.com/title/tt11198330/?ref_=nm_flmg_t_5_ardp
+    image: uploads/mv5bmjk2njgzmtetywvizs00ntmylwfjmzctodczymqznzk2njiwxkeyxkfqcgdeqxvymteymjm2ndc2._v1_ql75_ux380_cr0-0-380-562_.jpg
+    role: HoD Assistant
+  - name: The Batman
+    url: https://m.imdb.com/title/tt1877830/?ref_=nm_flmg_t_6_ardp
+    year: "2022"
+    role: Senior Prop Modeller
+    image: uploads/mv5bm2myntawzgetntaxnc00odvjltgzzjutymu0yjaznmqyzdewxkeyxkfqcgdeqxvyndc2ntg3nza-._v1_ql75_ux380_cr0-0-380-562_.jpg
+  - name: "Avengers: Age of Ultron"
+    url: https://m.imdb.com/title/tt2395427/?ref_=nm_flmg_t_20_ardp
+    year: "2015"
+    role: Senior Propmaker
+    image: uploads/mv5bmtm4ogjmnwmtotm4ni00nte3ltg3mditzmqxyjc4n2jhnmuxxkeyxkfqcgdeqxvyntgzmdmzmtg-._v1_ql75_ux380_cr0-0-380-562_.jpg
+  - name: Skyfall
+    url: https://m.imdb.com/title/tt1074638/?ref_=nm_flmg_t_34_ardp
+    year: "2012"
+    role: Props Supervisor
+    image: uploads/mv5bmwzinje2owitmtkwny00zwqzlwi0ntgtmwe0njniytljn2q1xkeyxkfqcgdeqxvynzawmjyxmza-._v1_ql75_ux380_cr0-0-380-562_.jpg
+  - name: Moon
+    url: https://m.imdb.com/title/tt1182345/?ref_=nm_flmg_t_49_ardp
+    year: "2009"
+    role: Model Maker
+    image: uploads/mv5bmtgzodgyntqwov5bml5banbnxkftztcwnzc0ntc0mg-._v1_ql75_uy562_cr1-0-380-562_.jpg
 portfolio_images:
   - image: /public/uploads/portfolio/2023-05-22_15-03-17_558.jpg
     category: propmaking
