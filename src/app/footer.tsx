@@ -35,7 +35,10 @@ export default function Footer({ hideCTA }: Props) {
         <div className="text-left md:text-right">
           <div>
             <div className="text-neutral-400">
-              © <Copyright />
+            Peter Lee Props and Creations Ltd © <Copyright />
+            </div>
+            <div className="text-neutral-400">
+              Registered in the UK, company number 09280687
             </div>
           </div>
           <div className="flex flex-col">
