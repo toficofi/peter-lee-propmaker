@@ -1,4 +1,8 @@
 import { portfolio_images } from "../home/data";
+const {
+  PHASE_DEVELOPMENT_SERVER,
+  PHASE_PRODUCTION_BUILD,
+} = require("next/constants");
 import PhotoAlbum from "react-photo-album";
 const breakpoints = [1080, 640, 384, 256, 128, 96, 64, 48];
 import probe from "probe-image-size";
@@ -17,7 +21,7 @@ import {
 } from "@/components/section-header";
 import { PhotoEnhanced } from "./portfolio.types";
 
-const CACHE_PATH = path.join(process.cwd(), ".next/cache/images.json");
+const CACHE_PATH = path.join(process.cwd(), ".cache/images.json");
 
 const CATEGORY_TITLES = {
   modelmaking: "Modelmaking",
@@ -27,22 +31,29 @@ const CATEGORY_TITLES = {
   lino_prints: "Lino prints",
 };
 
+const IS_DEVELOPMENT_SERVER = process.env.NODE_ENV === "development"
+
 async function getImagesInCategories() {
   let result: Record<string, PhotoEnhanced[]> | null = null;
 
-  try {
-    console.log("Cache found, using cache");
-    const cache = fs.readFileSync(CACHE_PATH, "utf-8");
-    result = JSON.parse(cache);
-    return result;
-  } catch (e) {
-    console.log("No cache found, generating images");
+  if (IS_DEVELOPMENT_SERVER) {
+    // Only use cache during next dev
+    try {
+      console.log("Cache found, using cache");
+      const cache = fs.readFileSync(CACHE_PATH, "utf-8");
+      result = JSON.parse(cache);
+      return result;
+    } catch (e) {
+      console.log("No cache found, generating images");
+      fs.mkdirSync(path.dirname(CACHE_PATH), { recursive: true });
+    }
   }
 
   const images: PhotoEnhanced[] = await Promise.all(
     portfolio_images.map(async (item: any) => {
       const url = item.image as string;
       const category = item.category as string;
+
 
       const filePath = path.join(process.cwd(), `./${url}`);
       const file = fs.readFileSync(filePath);
@@ -82,7 +93,9 @@ async function getImagesInCategories() {
     return acc;
   }, {} as Record<string, PhotoEnhanced[]>);
 
-  fs.writeFileSync(CACHE_PATH, JSON.stringify(result));
+  if (IS_DEVELOPMENT_SERVER) {
+    fs.writeFileSync(CACHE_PATH, JSON.stringify(result));
+  }
 
   return result;
 }
