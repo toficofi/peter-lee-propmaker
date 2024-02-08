@@ -217,4 +217,10 @@ portfolio_images:
     category: kobujutsu_training_weapons
   - image: /public/uploads/portfolio/cd99de88-0e11-4581-8a23-5551bdeb16ca2024-01-29_15-11-27_000.jpeg
     category: kobujutsu_training_weapons
+  - image: /public/uploads/portfolio/cbcf54a6-9bb1-4c45-9165-4a669c9611342024-01-29_15-11-55_000.jpeg
+    category: kobujutsu_training_weapons
+  - image: /public/uploads/portfolio/cd99de88-0e11-4581-8a23-5551bdeb16ca2024-01-29_15-11-27_000.jpeg
+    category: kobujutsu_training_weapons
+  - image: /public/uploads/portfolio/67032461-05ff-41bd-b771-bd73ce3bf8a62024-01-29_15-07-28_000.jpg
+    category: kobujutsu_training_weapons
 ---
