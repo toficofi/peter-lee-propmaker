@@ -53,19 +53,18 @@ export default function PortfolioPhotos({ photos }: Props) {
 
 function NextJsImage({
   photo,
-  imageProps: { alt, title, sizes, className, onClick },
+  imageProps: { alt, title, className, onClick },
   wrapperStyle,
 }: RenderPhotoProps) {
   return (
     <div style={{ ...wrapperStyle, position: "relative" }}>
       <Image
-        fill
         src={photo.src}
         className={cn("hover:brightness-50 transition", className)}
         placeholder={"blurDataURL" in photo ? "blur" : undefined}
         blurDataURL={(photo as any).blurDataURL}
         alt=""
-        {...{ title, sizes, onClick }}
+        {...{ title, width: photo.width, height: photo.height, onClick }}
       />
     </div>
   );

@@ -19,7 +19,6 @@ export default function Movies() {
           src={architectBackground}
           width={500}
           alt=""
-          objectFit="cover"
           className="absolute opacity-20 md:opacity-50 top-0 right-0 pointer-events-none"
         />
         <SectionHeader>
