@@ -9,6 +9,9 @@ const nextConfig = {
             }
         )
         return cfg
+    },
+    images: {
+        formats: ['image/avif', 'image/webp']
     }
 };
 
