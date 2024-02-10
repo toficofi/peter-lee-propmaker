@@ -203,26 +203,6 @@ portfolio_images:
     category: propmaking
   - image: /public/uploads/portfolio/image-2.png
     category: propmaking
-  - image: /public/uploads/portfolio/unnamed.jpg
-    category: kobujutsu_training_weapons
-  - image: /public/uploads/portfolio/unnamed-1-.jpg
-    category: kobujutsu_training_weapons
-  - image: /public/uploads/portfolio/4d2a6ac3-0848-4bf7-9167-79b6c965fa052024-01-29_14-58-59_000.jpg
-    category: kobujutsu_training_weapons
-  - image: /public/uploads/portfolio/8e274a46-14e1-4f2c-800a-f4eddddc36082024-01-29_15-03-07_000.jpeg
-    category: kobujutsu_training_weapons
-  - image: /public/uploads/portfolio/d716a744-746e-4f7a-aab8-647332f64c7b2024-01-29_14-57-33_000.jpg
-    category: kobujutsu_training_weapons
-  - image: /public/uploads/portfolio/cbcf54a6-9bb1-4c45-9165-4a669c9611342024-01-29_15-11-55_000.jpeg
-    category: kobujutsu_training_weapons
-  - image: /public/uploads/portfolio/cd99de88-0e11-4581-8a23-5551bdeb16ca2024-01-29_15-11-27_000.jpeg
-    category: kobujutsu_training_weapons
-  - image: /public/uploads/portfolio/cbcf54a6-9bb1-4c45-9165-4a669c9611342024-01-29_15-11-55_000.jpeg
-    category: kobujutsu_training_weapons
-  - image: /public/uploads/portfolio/cd99de88-0e11-4581-8a23-5551bdeb16ca2024-01-29_15-11-27_000.jpeg
-    category: kobujutsu_training_weapons
-  - image: /public/uploads/portfolio/67032461-05ff-41bd-b771-bd73ce3bf8a62024-01-29_15-07-28_000.jpg
-    category: kobujutsu_training_weapons
   - image: /public/uploads/portfolio/kobu1.jpg
     category: kobujutsu_training_weapons
   - image: /public/uploads/portfolio/kobu2.JPEG
