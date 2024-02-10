@@ -215,6 +215,7 @@ portfolio_images:
     category: kobujutsu_training_weapons
   - image: /public/uploads/portfolio/kobu6.jpg
     category: kobujutsu_training_weapons
+    caption: This is a test caption
   - image: /public/uploads/portfolio/kobu7.jpg
     category: kobujutsu_training_weapons
   - image: /public/uploads/portfolio/kobu8.JPEG
