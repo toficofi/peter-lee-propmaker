@@ -205,23 +205,32 @@ portfolio_images:
     category: propmaking
   - image: /public/uploads/portfolio/kobu1.jpg
     category: kobujutsu_training_weapons
+    caption: "Kumite design "
   - image: /public/uploads/portfolio/kobu2.JPEG
     category: kobujutsu_training_weapons
+    caption: Kumite design
   - image: /public/uploads/portfolio/kobu3.JPEG
     category: kobujutsu_training_weapons
+    caption: "Kata design "
   - image: /public/uploads/portfolio/kobu4.JPEG
     category: kobujutsu_training_weapons
+    caption: Kata design
   - image: /public/uploads/portfolio/kobu5.JPEG
     category: kobujutsu_training_weapons
+    caption: "Kata design "
   - image: /public/uploads/portfolio/kobu6.jpg
     category: kobujutsu_training_weapons
-    caption: ""
+    caption: "Kata design "
   - image: /public/uploads/portfolio/kobu7.jpg
     category: kobujutsu_training_weapons
+    caption: "Kata design "
   - image: /public/uploads/portfolio/kobu8.JPEG
     category: kobujutsu_training_weapons
+    caption: Kumite design
   - image: /public/uploads/portfolio/kobu9.jpg
     category: kobujutsu_training_weapons
+    caption: Kumite design
   - image: /public/uploads/portfolio/kobu10.jpg
     category: kobujutsu_training_weapons
+    caption: "Kumite design "
 ---
