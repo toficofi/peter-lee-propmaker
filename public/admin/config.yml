@@ -27,6 +27,7 @@ collections:
           widget: list
           fields:
             - { label: "Image", name: "image", widget: "image", choose_url: false, media_folder: "/public/uploads/portfolio"}
+            - { label: "Caption", name: "caption", widget: "string"}
             - label: "Category"
               name: "category"
               widget: "select"

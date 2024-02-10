@@ -56,8 +56,18 @@ function NextJsImage({
   imageProps: { alt, title, className, onClick },
   wrapperStyle,
 }: RenderPhotoProps) {
+  const photoEnhanced = photo as PhotoEnhanced;
+
   return (
     <div style={{ ...wrapperStyle, position: "relative" }}>
+      {photoEnhanced.caption && (
+        <div className="absolute top-0 left-0 w-full h-full bg-opacity-50 p-2 flex items-end justify-end">
+          <div className="rounded-lg px-2 py-1 bg-black bg-opacity-80 text-white text-sm uppercase font-semibold truncate">
+            {photoEnhanced.caption}
+          </div>
+        </div>
+      )}
+
       <Image
         src={photo.src}
         className={cn("hover:brightness-50 transition", className)}

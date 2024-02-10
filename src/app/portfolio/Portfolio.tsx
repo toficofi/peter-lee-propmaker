@@ -53,8 +53,7 @@ async function getImagesInCategories() {
     portfolio_images.map(async (item: any) => {
       const url = item.image as string;
       const category = item.category as string;
-
-
+      const caption = item.caption as string;
       const filePath = path.join(process.cwd(), `./${url}`);
       const file = fs.readFileSync(filePath);
 
@@ -69,6 +68,7 @@ async function getImagesInCategories() {
         src,
         width,
         height,
+        caption,
         category,
         blurDataURL: base64,
         srcSet: breakpoints.map((breakpoint) => {
