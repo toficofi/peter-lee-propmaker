@@ -61,7 +61,7 @@ function NextJsImage({
   return (
     <div style={{ ...wrapperStyle, position: "relative" }}>
       {photoEnhanced.caption && (
-        <div className="absolute top-0 left-0 w-full h-full bg-opacity-50 p-2 flex items-end justify-end">
+        <div className="absolute top-0 left-0 w-full h-full bg-opacity-50 p-2 flex items-end justify-end pointer-events-none">
           <div className="rounded-lg px-2 py-1 bg-black bg-opacity-80 text-white text-sm uppercase font-semibold truncate">
             {photoEnhanced.caption}
           </div>
