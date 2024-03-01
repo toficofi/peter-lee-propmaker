@@ -233,4 +233,14 @@ portfolio_images:
   - image: /public/uploads/portfolio/kobu10.jpg
     category: kobujutsu_training_weapons
     caption: "Kumite design "
+  - image: /public/uploads/portfolio/unnamed.jpg
+    category: kobujutsu_training_weapons
+  - image: /public/uploads/portfolio/unnamed-1-.jpg
+    category: kobujutsu_training_weapons
+  - image: /public/uploads/portfolio/p1660589.jpg
+    category: kobujutsu_training_weapons
+  - image: /public/uploads/portfolio/p1660593.jpg
+    category: kobujutsu_training_weapons
+  - image: /public/uploads/portfolio/p1660595.jpg
+    category: kobujutsu_training_weapons
 ---
