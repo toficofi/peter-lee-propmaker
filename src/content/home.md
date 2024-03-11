@@ -241,6 +241,4 @@ portfolio_images:
     category: kobujutsu_training_weapons
   - image: /public/uploads/portfolio/p1660593.jpg
     category: kobujutsu_training_weapons
-  - image: /public/uploads/portfolio/p1660595.jpg
-    category: kobujutsu_training_weapons
 ---
