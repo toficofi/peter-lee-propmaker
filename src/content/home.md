@@ -235,8 +235,10 @@ portfolio_images:
     caption: "Kumite design "
   - image: /public/uploads/portfolio/unnamed.jpg
     category: kobujutsu_training_weapons
+    caption: "Kata design "
   - image: /public/uploads/portfolio/unnamed-1-.jpg
     category: kobujutsu_training_weapons
+    caption: "Kumite design "
   - image: /public/uploads/portfolio/p1660589.jpg
     category: kobujutsu_training_weapons
   - image: /public/uploads/portfolio/p1660593.jpg
