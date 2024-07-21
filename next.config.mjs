@@ -11,7 +11,7 @@ const nextConfig = {
         return cfg
     },
     images: {
-        formats: ['image/jpeg']
+        formats: ['image/webp']
     }
 };
 
