@@ -50,14 +50,6 @@ export default function Footer({ hideCTA }: Props) {
               IMDB
               <ArrowUpRight className="w-5 h-5 ml-1" />
             </a>
-            <a
-              href={links.mandy}
-              target="_blank"
-              className="hover:text-[#34BBA0] transition-colors flex md:justify-end"
-            >
-              Mandy
-              <ArrowUpRight className="w-5 h-5 ml-1" />
-            </a>
             <a 
             href={links.filmbase}
             target="_blank"

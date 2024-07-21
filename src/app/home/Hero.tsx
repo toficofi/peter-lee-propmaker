@@ -1,5 +1,4 @@
 import coverImage from "@/assets/images/peter-cover.jpg";
-import mandyImage from "@/assets/images/mandy-logo.svg";
 import filmbaseImage from "@/assets/images/filmbase-logo.png";
 import { Button } from "@/components/ui/button";
 import {
@@ -60,13 +59,13 @@ export default function Hero() {
           </div>
           <div className="flex flex-col h-full justify-evenly relative">
             <h1 className="text-3xl lg:text-4xl xl:text-5xl 2xl:text-7xl font-semibold tracking-tight text-gray-900 leading-10">
-              29+ years propmaking for film, TV and others
+              30+ years propmaking for film, TV and others
             </h1>
             <p className="mt-4 text-gray-400 xl:text-lg max-w-[500px]">
               With a degree in furniture design, I have a competence with a vast
               array of different materials and manufacturing techniques, built
               on a foundation of proficiency with hand tools & machinery
-              accumulated over 29+ years of experience in film and TV.
+              accumulated over 30+ years of experience in film and TV.
             </p>
 
             <div className="md:mb-12">
@@ -134,24 +133,6 @@ export default function Hero() {
                 armoury, set dec and hand props.
               </span>
               <div className="mt-4 flex flex-col md:flex-row gap-2 md:gap-4">
-                <a
-                  href={links.mandy}
-                  target="_blank"
-                  className="inline-flex items-center hover:text-[#34BBA0] group"
-                >
-                  <div className="bg-white rounded-full w-10 h-10 flex justify-center items-center mr-2">
-                    <Image
-                      src={mandyImage}
-                      width={32}
-                      alt="Mandy logo"
-                      className="mr-0.5"
-                    />{" "}
-                  </div>
-                  <span className="ml-2 flex font-semibold items-center transition-transform group-hover:translate-x-1">
-                    Mandy.com
-                    <ArrowUpRight className="w-5 h-5 mb-2 ml-1" />
-                  </span>
-                </a>
                 <a
                   href={links.filmbase }
                   target="_blank"
