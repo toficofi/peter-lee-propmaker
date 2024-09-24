@@ -244,23 +244,23 @@ portfolio_images:
   - image: /public/uploads/portfolio/p1660593.jpg
     category: kobujutsu_training_weapons
   - image: /public/uploads/portfolio/2023-04-26_11-34-59_000.jpeg
-    category: lino_prints
+    category: armoury
   - image: /public/uploads/portfolio/2023-06-02_08-52-00_659.jpeg
-    category: lino_prints
+    category: armoury
   - image: /public/uploads/portfolio/2024-09-21_15-06-43_000-2024-09-21t15_14_40.987-.jpeg
-    category: lino_prints
+    category: armoury
   - image: /public/uploads/portfolio/2024-09-21_15-06-43_000.jpeg
-    category: lino_prints
+    category: armoury
   - image: /public/uploads/portfolio/2024-09-21_15-06-44_000.jpeg
-    category: lino_prints
+    category: armoury
   - image: /public/uploads/portfolio/2024-09-21_15-06-45_000.jpeg
-    category: lino_prints
+    category: armoury
   - image: /public/uploads/portfolio/2024-09-21_15-06-52_000.jpeg
-    category: lino_prints
+    category: armoury
   - image: /public/uploads/portfolio/2024-09-21_15-08-19_000.jpeg
-    category: lino_prints
+    category: armoury
   - image: /public/uploads/portfolio/2024-09-21_15-08-20_000-2024-09-21t15_56_47.080-.jpeg
-    category: lino_prints
+    category: armoury
   - image: /public/uploads/portfolio/2024-09-21_15-08-28_000.jpeg
-    category: lino_prints
+    category: armoury
 ---
