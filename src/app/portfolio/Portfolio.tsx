@@ -29,6 +29,7 @@ const CATEGORY_TITLES = {
   garden_design: "Garden design",
   kobujutsu_training_weapons: "Kobujutsu training weapons",
   lino_prints: "Lino prints",
+  armoury: "Film & TV Armoury"
 };
 
 const IS_DEVELOPMENT_SERVER = process.env.NODE_ENV === "development"
