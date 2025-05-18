@@ -203,46 +203,18 @@ portfolio_images:
     category: propmaking
   - image: /public/uploads/portfolio/image-2.png
     category: propmaking
-  - image: /public/uploads/portfolio/kobu1.jpg
-    category: kobujutsu_training_weapons
-    caption: "Kumite design "
-  - image: /public/uploads/portfolio/kobu2.JPEG
-    category: kobujutsu_training_weapons
-    caption: Kumite design
-  - image: /public/uploads/portfolio/kobu3.JPEG
-    category: kobujutsu_training_weapons
-    caption: "Kata design "
-  - image: /public/uploads/portfolio/kobu4.JPEG
-    category: kobujutsu_training_weapons
-    caption: Kata design
   - image: /public/uploads/portfolio/kobu5.JPEG
     category: kobujutsu_training_weapons
-    caption: "Kata design "
+    caption: Tonfa
   - image: /public/uploads/portfolio/kobu6.jpg
     category: kobujutsu_training_weapons
-    caption: "Kata design "
-  - image: /public/uploads/portfolio/kobu7.jpg
-    category: kobujutsu_training_weapons
-    caption: "Kata design "
+    caption: "Tonfa "
   - image: /public/uploads/portfolio/kobu8.JPEG
     category: kobujutsu_training_weapons
-    caption: Kumite design
-  - image: /public/uploads/portfolio/kobu9.jpg
-    category: kobujutsu_training_weapons
-    caption: Kumite design
-  - image: /public/uploads/portfolio/kobu10.jpg
-    category: kobujutsu_training_weapons
-    caption: "Kumite design "
+    caption: Tonfa
   - image: /public/uploads/portfolio/unnamed.jpg
     category: kobujutsu_training_weapons
-    caption: "Kata design "
-  - image: /public/uploads/portfolio/unnamed-1-.jpg
-    category: kobujutsu_training_weapons
-    caption: "Kumite design "
-  - image: /public/uploads/portfolio/p1660589.jpg
-    category: kobujutsu_training_weapons
-  - image: /public/uploads/portfolio/p1660593.jpg
-    category: kobujutsu_training_weapons
+    caption: "Tonfa "
   - image: /public/uploads/portfolio/2023-04-26_11-34-59_000.jpeg
     category: armoury
   - image: /public/uploads/portfolio/2023-06-02_08-52-00_659.jpeg
@@ -263,4 +235,22 @@ portfolio_images:
     category: armoury
   - image: /public/uploads/portfolio/2024-09-21_15-08-28_000.jpeg
     category: armoury
+  - image: /public/uploads/portfolio/img_0134.jpeg
+    category: propmaking
+  - image: /public/uploads/portfolio/img_1905.jpeg
+    category: armoury
+  - image: /public/uploads/portfolio/img_1907.jpeg
+    caption: "Steel bladed Kama "
+    category: kobujutsu_training_weapons
+  - image: /public/uploads/portfolio/img_1908.jpeg
+    caption: "Wooden bladed Kama "
+    category: kobujutsu_training_weapons
+  - image: /public/uploads/portfolio/img_1909.jpeg
+    caption: "Wooden bladed Kama "
+    category: kobujutsu_training_weapons
+  - image: /public/uploads/portfolio/img_1910.jpeg
+    caption: "Steel bladed Kama "
+    category: kobujutsu_training_weapons
+  - image: /public/uploads/portfolio/img_1911.jpeg
+    category: propmaking
 ---
