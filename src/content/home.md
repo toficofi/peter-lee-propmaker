@@ -253,4 +253,6 @@ portfolio_images:
     category: kobujutsu_training_weapons
   - image: /public/uploads/portfolio/img_1911.jpeg
     category: propmaking
+  - image: /public/uploads/portfolio/img_2046.jpeg
+    category: kobujutsu_training_weapons
 ---
