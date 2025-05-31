@@ -205,16 +205,16 @@ portfolio_images:
     category: propmaking
   - image: /public/uploads/portfolio/kobu5.JPEG
     category: kobujutsu_training_weapons
-    caption: Tonfa
+    caption: ""
   - image: /public/uploads/portfolio/kobu6.jpg
     category: kobujutsu_training_weapons
-    caption: "Tonfa "
+    caption: ""
   - image: /public/uploads/portfolio/kobu8.JPEG
     category: kobujutsu_training_weapons
-    caption: Tonfa
+    caption: ""
   - image: /public/uploads/portfolio/unnamed.jpg
     category: kobujutsu_training_weapons
-    caption: "Tonfa "
+    caption: ""
   - image: /public/uploads/portfolio/2023-04-26_11-34-59_000.jpeg
     category: armoury
   - image: /public/uploads/portfolio/2023-06-02_08-52-00_659.jpeg
