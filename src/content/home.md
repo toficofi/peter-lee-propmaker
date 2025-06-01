@@ -206,7 +206,7 @@ portfolio_images:
   - image: /public/uploads/portfolio/img_2049.jpeg
     category: kobujutsu_training_weapons
     caption: ""
-  - image: /public/uploads/portfolio/kobu6.jpg
+  - image: /public/uploads/portfolio/img_2045.jpeg
     category: kobujutsu_training_weapons
     caption: ""
   - image: /public/uploads/portfolio/kobu8.JPEG
