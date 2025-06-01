@@ -186,13 +186,13 @@ portfolio_images:
   - image: /public/uploads/portfolio/2023-07-20_12-05-18_020.jpeg
     category: propmaking
   - image: /public/uploads/portfolio/2023-07-20_12-05-31_264.jpeg
-    category: propmaking
+    category: armoury
   - image: /public/uploads/portfolio/022_04.jpg
     category: modelmaking
   - image: /public/uploads/portfolio/2023-07-20_11-15-15_665.webp
-    category: propmaking
+    category: armoury
   - image: /public/uploads/portfolio/_MG_2220.JPG
-    category: propmaking
+    category: armoury
   - image: /public/uploads/portfolio/2023-07-20_12-05-36_576.jpeg
     category: propmaking
   - image: /public/uploads/portfolio/2023-07-20_12-05-48_869.jpeg
