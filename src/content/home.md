@@ -240,16 +240,16 @@ portfolio_images:
   - image: /public/uploads/portfolio/img_1905.jpeg
     category: armoury
   - image: /public/uploads/portfolio/img_1907.jpeg
-    caption: "Steel bladed Kama "
+    caption: ""
     category: kobujutsu_training_weapons
   - image: /public/uploads/portfolio/img_1908.jpeg
-    caption: "Wooden bladed Kama "
+    caption: ""
     category: kobujutsu_training_weapons
   - image: /public/uploads/portfolio/img_1909.jpeg
-    caption: "Wooden bladed Kama "
+    caption: ""
     category: kobujutsu_training_weapons
   - image: /public/uploads/portfolio/img_1910.jpeg
-    caption: "Steel bladed Kama "
+    caption: ""
     category: kobujutsu_training_weapons
   - image: /public/uploads/portfolio/img_1911.jpeg
     category: propmaking
