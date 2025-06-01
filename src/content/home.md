@@ -203,7 +203,7 @@ portfolio_images:
     category: propmaking
   - image: /public/uploads/portfolio/image-2.png
     category: propmaking
-  - image: /public/uploads/portfolio/kobu5.JPEG
+  - image: /public/uploads/portfolio/img_2049.jpeg
     category: kobujutsu_training_weapons
     caption: ""
   - image: /public/uploads/portfolio/kobu6.jpg
